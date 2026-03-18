@@ -1,0 +1,12 @@
+name=input("Enter the name of the passenger")
+Age=int(input("Enter the age of passenger"))
+bus point=input("Enter the boarding point")
+Amount=int(input("Enter the amount"))
+AC bus=Amount*200
+Non Ac= Amount*10
+print("Passenger Name",name)
+print("Age of passenger",Age)
+print("Total Bus charges is",Amount)
+print("AC bus charge is",AC bus)
+print("NOn Ac bus charge is",Non Ac)
+
