@@ -29,7 +29,7 @@ solved 2 problems in hackerrank.
 Data types:
 int= often called integers.
 float=decimal form. 
-Boolean=which gives output as True or False.
+Boolean=whichgives output as True or False.
 
 OPERATORS:
 1.Arithmetic operators(+,-,*,/,%,**,//).
