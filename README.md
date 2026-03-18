@@ -42,6 +42,6 @@ OPERATORS:
 Solved question from GeeksforGeeks and hackerrank.
 
 ###🎯 Goal:
-#completing 100 days code challege consistently.
+#consistency is the key for sucess.
 
 
