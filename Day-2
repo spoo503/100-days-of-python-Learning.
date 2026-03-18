@@ -1,3 +1,4 @@
+#problem 1.
 name=input("Enter the name of the passenger")
 Age=int(input("Enter the age of passenger"))
 bus point=input("Enter the boarding point")
@@ -10,3 +11,10 @@ print("Total Bus charges is",Amount)
 print("AC bus charge is",AC bus)
 print("NOn Ac bus charge is",Non Ac)
 
+#problem 2.
+total_classes = int(input("Enter total classes: "))
+attended = int(input("Enter attended classes: "))
+
+percentage = (attended / total_classes) * 100
+
+print("Attendance %:", percentage)
