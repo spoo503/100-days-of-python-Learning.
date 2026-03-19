@@ -1,0 +1,24 @@
+name = input("Enter the name of asha worker")
+village=input("Enter the village name")
+Branch=input("Enter the the branch name")
+mobile_number=int(input("Enter the mobile number "))
+visit_house=int(input("Enter the number of hous3 visited"))
+salary=int(input("Enter the salary of the worker "))
+if(visit_house==20):
+    print("Total amount is",visit_house*salary+500)
+elif(visit_house>=50):
+    print("Total amount is",visit_house*salary+1000)
+elif(visit_house==0):
+    print("Total salary",salary)
+else :
+    print("total salary",salary)
+print(name)
+print(village)
+print(Branch)
+print(mobile_number)
+print(visit_house)
+print(salary)
+
+
+
+
