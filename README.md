@@ -44,4 +44,50 @@ Solved question from GeeksforGeeks and hackerrank.
 ###🎯 Goal:
 #consistency is the key for sucess.
 
+## Day 3
+
+### 📚 Topics Covered:
+1. Dynamic Typing  
+2. Input and Output  
+3. Conditional Statements (if, elif, else)  
+
+
+### 🧠 Learning:
+
+#### Dynamic Typing:
+- In Python, variables do not need a fixed data type  
+- A variable can store different types of values at different times  
+
+#### Input:
+- input() function is used to take user input  
+- It always returns data in string format  
+- We use int() or float() to convert it  
+
+#### Output:
+- print() function is used to display output  
+- It automatically converts values to string  
+- sep and end can be used to format output  
+
+#### Conditional Statements:
+- if → checks condition  
+- elif → checks multiple conditions  
+- else → runs when all conditions are false  
+
+
+### 💻 Practice:
+- Practiced input/output programs  
+- Implemented real-life problems using conditions  
+
+### ⚠️ Mistake:
+- Got confused with input type conversion  
+
+
+### 🎯 Goal:
+- Improve logical thinking and consistency
+
+###💻  practice
+Solved question from GeeksforGeeks and hackerrank.
+
+###🎯 Goal:
+#consistency is the key for sucess.
 
