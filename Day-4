@@ -20,3 +20,30 @@ print(classes)
 print(Attended)
 print(percentage)
 
+#PROBLEM 2
+Name=input("Enter the name of customer")
+Bank =input("Enter the bank 🏦 name")
+amount=int(input("Enter the amount "))
+Balance=int(input("Enter the amount "))
+option=("Enter the options")
+for i in range(3):
+pin=int(input("Enter the pin"))
+if(pin==1234):
+       print(" Correct pint")
+     if(option="Balance"):
+        print("Total amount is",Balance)
+     elif(option="withdraw"):
+          print("Amount left is",  abs(Balance - amount))
+     elif(option="Debit"):
+  print("Amount added to account is",amount+Balance)
+break
+else:
+print("Incorrect pin")
+  print("Incorrect password try again ")
+print("Welcome to"Bank")
+print(Name)
+print(Bank)
+print(amount)
+print(Balance)
+print(option)
+
