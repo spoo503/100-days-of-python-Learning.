@@ -83,11 +83,30 @@ Solved question from GeeksforGeeks and hackerrank.
 
 
 ### 🎯 Goal:
-- Improve logical thinking and consistency
+- Improve logical thinking and consistent
 
-###💻  practice
-Solved question from GeeksforGeeks and hackerrank.
+####Day-4 of Python Learning 🐍
+📚 Topics Covered:
+Conditional Statements (if, elif, else)
+Nested if Statements
+for Loop
 
-###🎯 Goal:
-#consistency is the key for sucess.
+##🧠 Learning:
+🔹 Conditional Statements:
+Used to make decisions in a program. The code runs based on conditions (True/False).
+🔹 Nested if:
+An if statement inside another if.
+Used when checking multiple conditions step by step.
+🔹 for Loop:
+Used to repeat a block of code multiple times.
+Helps in handling tasks like input, counting, and iteration.
+
+##💻 Practice:
+Solved problems based on:
+Student attendance eligibility
+ATM withdrawal logic
+Discount calculation
+
+##🎯 Goal:
+To understand decision-making and looping clearly and apply them in real-life problems.
 
