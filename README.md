@@ -109,4 +109,23 @@ Discount calculation
 
 ##🎯 Goal:
 To understand decision-making and looping clearly and apply them in real-life problems.
+💻 Day-5 of Python Learning
 
+Today I tried solving a math problem using Python — finding the roots of a quadratic equation.
+
+📚 What I worked on:
+While loop
+If-else and nested conditions
+Using formulas in code
+
+💡 What I built:
+A simple program that takes values and tells whether the roots are real, equal, or imaginary, and calculates them.
+
+🧠 What I learned:
+I understood how to convert a mathematical formula into code and how loops can be used to repeat the process easily.
+
+🚧 Challenges:
+I made some mistakes with formulas and indentation at first, but fixing them helped me understand the logic better.
+
+Still learning step by step and improving every day 🚀
+#100DaysOfCode #Python #LearningJourney
