@@ -129,3 +129,24 @@ I made some mistakes with formulas and indentation at first, but fixing them hel
 
 Still learning step by step and improving every day 🚀
 #100DaysOfCode #Python #LearningJourney
+
+###Day 6 – Python Learning Plan
+📌 Topics Covered
+Functions (def)
+Function Parameters
+Return Values
+Calling Functions
+Modular Programming (breaking code into parts)
+
+🧠 What I Have Learned
+How to create and use functions
+How to pass inputs using parameters
+How to return values from functions
+How to make code clean and reusable
+How to organize programs into smaller parts
+
+🎯 Goals
+Convert existing programs using functions
+Improve code structure and readability
+Build a modular version of real-world programs
+Prepare for writing better projects
