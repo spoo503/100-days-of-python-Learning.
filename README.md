@@ -1,6 +1,6 @@
 # 100-days-of-python-Learning🚀
 
-**##Day-1 of python learning.
+###Day-1 of python learning.
 
 ###📚 Topics covered:
 1. print-statemnts
@@ -18,12 +18,11 @@ solved 2 problems in hackerrank.
 #completing 100 days code challege consistently.
 
 
-##Day-2 of python Learning.
+###Day-2 of python Learning.
 
-###📚 Topics covered:
+###📚Topics covered:
 1,Data Types
 2.Operators
-
 
 ###🧠Learning
 Data types:
@@ -38,13 +37,13 @@ OPERATORS:
 4.Logical operators=and, or, not.
 5.membership operators(in, not in).
 
-###💻  practice
+###💻 practice
 Solved question from GeeksforGeeks and hackerrank.
 
-###🎯 Goal:
+###🎯Goal:
 #consistency is the key for sucess.
 
-## Day 3
+### Day 3
 
 ### 📚 Topics Covered:
 1. Dynamic Typing  
@@ -73,7 +72,6 @@ Solved question from GeeksforGeeks and hackerrank.
 - elif → checks multiple conditions  
 - else → runs when all conditions are false  
 
-
 ### 💻 Practice:
 - Practiced input/output programs  
 - Implemented real-life problems using conditions  
@@ -81,11 +79,11 @@ Solved question from GeeksforGeeks and hackerrank.
 ### ⚠️ Mistake:
 - Got confused with input type conversion  
 
-
 ### 🎯 Goal:
 - Improve logical thinking and consistent
 
 ####Day-4 of Python Learning 🐍
+
 📚 Topics Covered:
 Conditional Statements (if, elif, else)
 Nested if Statements
@@ -109,6 +107,8 @@ Discount calculation
 
 ##🎯 Goal:
 To understand decision-making and looping clearly and apply them in real-life problems.
+
+
 💻 Day-5 of Python Learning
 
 Today I tried solving a math problem using Python — finding the roots of a quadratic equation.
@@ -131,6 +131,7 @@ Still learning step by step and improving every day 🚀
 #100DaysOfCode #Python #LearningJourney
 
 ###Day 6 – Python Learning Plan
+
 📌 Topics Covered
 Functions (def)
 Function Parameters
@@ -150,3 +151,41 @@ Convert existing programs using functions
 Improve code structure and readability
 Build a modular version of real-world programs
 Prepare for writing better projects
+
+
+###Day-7 python learning:
+
+###📌Topics Covered:
+1. Lists.
+2. Features of lists.
+
+###🧠 Learning:
+1.list is a data type which can store any type of data.
+2.Lists are mutable(elements are changeable)
+3.lists are orderd(which a sequence or index positions)
+4.List is represented by[].
+5.Empty list can be created by L=list().
+
+###🧠 What I Have Learned.
+Creating Lists in Python.
+Accessing List Elements using Index
+Updating List Values
+###List Methods
+append()
+remove()
+pop()
+
+###List Operations
+len()
+max()
+min()
+sum()
+
+###🎯 Goals
+Today it's hard , tommorow it's difficult ,but after that day it's beautiful.
+
+
+
+
+
+
