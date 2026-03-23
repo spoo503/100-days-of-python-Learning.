@@ -1,0 +1,18 @@
+# List of student marks
+marks = [78, 85, 90, 67, 88]
+
+# Print all marks
+print("Student Marks:")
+for mark in marks:
+    print(mark)
+
+# Total marks
+total = sum(marks)
+print("Total Marks:", total)
+
+# Highest marks
+highest = max(marks)
+print("Highest Marks:", highest)
+
+# Number of students
+print("Total Students:", len(marks))
