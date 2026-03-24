@@ -204,10 +204,10 @@ sort() → Sorts the elements in ascending order
 
 These built-in functions help us perform operations on lists:
 
-len() → Finds the number of elements in a list
-max() → Returns the maximum value in the list
-min() → Returns the minimum value in the list
-sum() → Adds all elements in the list
+1.len() → Finds the number of elements in a list
+2.max() → Returns the maximum value in the list
+3.min() → Returns the minimum value in the list
+4.sum() → Adds all elements in the list
 
 💻 Practice:
 Creating lists
@@ -221,5 +221,43 @@ Tomorrow it may feel even more difficult.
 But one day all this effort will become something beautiful.
 
 Learning step by step every day 🚀
+
+### Day-8 of python learning.
+
+##📌 Topics Covered
+1.Tuples in Python
+2.Features of Tuples
+3.Tuple Packing and Unpacking
+4.Accessing Tuple Elements (Indexing & Slicing)
+5.Tuple Methods and Built-in Functions
+5.Real-world usage of Tuples
+
+##🧠 What I Learned
+1.Tuples are ordered, so each element has an index position.
+2.Tuples are immutable, meaning elements cannot be modified after creation.
+3.Tuples allow duplicate values.
+4.They can store different data types in the same structure.
+5.Tuples are written using round brackets ().
+6.Tuples are often used when data should not change, such as coordinates, fixed records, or configuration values.
+
+Built-in Functions with Tuples
+1.len() → number of elements
+2.max() → largest value
+3.min() → smallest value
+4.sum() → sum of elements
+
+##💻 Practice
+Creating tuples with numbers and strings
+Accessing elements using indexing
+Using built-in functions like sum(), max(), and min()
+Using tuple methods like count()
+Understanding how tuple unpacking works
+
+
+🎯 Goals
+Every small concept I learn today is building the foundation for stronger programming skills tomorrow.
+My goal is to keep learning Python consistently every day and gradually move towards solving more complex programming problems.
+
+
 
 
