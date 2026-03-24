@@ -19,6 +19,19 @@ print(mobile_number)
 print(visit_house)
 print(salary)
 
+$problem 2
+a =90 # int
+b= 9.2 #float
+print(a+ int(b)) #converting float into int.
+
+# swapping of two numbers:
+a= int(input("Enter the number "))
+b= int(input("Enter the number "))
+temp=a
+a=b
+temp=b
+#the value of a and b will be swapped .
+
 
 
 
