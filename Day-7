@@ -1,18 +1,20 @@
-# List of student marks
-marks = [78, 85, 90, 67, 88]
+item=["coffee","sugar","milk","mug","spoon","filter"]
+print(type(item))             #tells whch data type (List).-list
+print(item)                   #gives all elements included in items.["coffee","sugar","milk","mug","spoon","filter"]
+print(item.append("tea"))      # element tea is aded at last of item.["coffee","sugar","milk","mug","spoon","filter","tea"]
+print(item.remove("sugar"))     # removes element sugar.["coffee","milk","mug","spoon","filter","tea"]
+print(item.pop(4))               # removes element at specific index.["coffee","milk","mug","spoon","tea"]
+print(item.insert(1,"samosa"))    # ads element at specific ["coffee","samosa","milk","mug","spoon","tea"]
+print(item.sort())                # gives i alphabetical order.
+print(item[0:6])                  #["coffee","samosa","milk","mug","spoon","tea"]
+print(item[0::2])                 ##["coffee","milk","spoon"]
+print(item[-4:-1])               ##["milk","mug","spoon"]
+print(item[-4:-1:-2])           ###["milk","tea"]  # But start < end while step is negative → Python cannot move backward correctly.so null[]
 
-# Print all marks
-print("Student Marks:")
-for mark in marks:
-    print(mark)
-
-# Total marks
-total = sum(marks)
-print("Total Marks:", total)
-
-# Highest marks
-highest = max(marks)
-print("Highest Marks:", highest)
-
-# Number of students
-print("Total Students:", len(marks))
+# Problem 2.
+list=[10,20,34,48]
+print(len(list)) # otput will be 4
+print(max(list)) #48 
+print(list.extend[34,23]) #=[10,20,34,48,34,23]
+print(list.reverse())     # [23,34 ,48,34,20,10]
+print(list.count(34))  #2
