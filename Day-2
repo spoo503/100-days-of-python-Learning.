@@ -18,3 +18,16 @@ attended = int(input("Enter attended classes: "))
 percentage = (attended / total_classes) * 100
 
 print("Attendance %:", percentage)
+
+Problem based on data type:
+a=10
+b=3
+c="Hello"
+d="e"
+print(a+b) # int
+print(a/b) #float
+print(c) #string
+print(d) # char
+
+
+
