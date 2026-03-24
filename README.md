@@ -36,7 +36,7 @@ char -single characters like a,b,x.
 String-group of letters.
 
 
-OPERATORS:
+##OPERATORS:
 1.Arithmetic operators(+,-,*,/,%,**,//).
 2,Bitwise operators(^,&,|).
 3.relational operators(,>,<,>=,<=,==,!=).
@@ -59,13 +59,13 @@ Solved question from GeeksforGeeks and hackerrank.
 
 ### Day 3
 
-### 📚 Topics Covered:
+## 📚 Topics Covered:
 1. Type casting.  
 2. Input and Output  
 3. Conditional Statements (if, elif, else)  
 
 
-### 🧠 Learning:
+## 🧠 Learning:
 
 ## Type conversion:
 converting one data type into another data type is called type conversion.
@@ -76,40 +76,41 @@ converting one data type into another data type is called type conversion.
 - It always returns data in string format  
 - We use int() or float() to convert it  
 
-#### Output:
+## Output:
 - print() function is used to display output  
 - It automatically converts values to string  
 - sep and end can be used to format output  
 
-#### Conditional Statements:
+## Conditional Statements:
 - if → checks condition  
 - elif → checks multiple conditions  
 - else → runs when all conditions are false  
 
-### 💻 Practice:
+## 💻 Practice:
 - Practiced input/output programs  
 - Implemented real-life problems using conditions  
 
-### ⚠️ Mistake:
+##⚠️ Mistake:
 - Got confused with input type conversion  
 
-### 🎯 Goal:
+## 🎯 Goal:
 - Improve logical thinking and consistent
 
-####Day-4 of Python Learning 🐍
+###Day-4 of Python Learning 🐍
 
-📚 Topics Covered:
+##📚 Topics Covered:
 Conditional Statements (if, elif, else)
 Nested if Statements
 for Loop
 
 ##🧠 Learning:
-🔹 Conditional Statements:
+
+*🔹 Conditional Statements:
 Used to make decisions in a program. The code runs based on conditions (True/False).
-🔹 Nested if:
+*🔹 Nested if:
 An if statement inside another if.
 Used when checking multiple conditions step by step.
-🔹 for Loop:
+*🔹 for Loop:
 Used to repeat a block of code multiple times.
 Helps in handling tasks like input, counting, and iteration.
 
@@ -123,31 +124,35 @@ Discount calculation
 To understand decision-making and looping clearly and apply them in real-life problems.
 
 
-💻 Day-5 of Python Learning
 
-Today I tried solving a math problem using Python — finding the roots of a quadratic equation.
 
-📚 What I worked on:
+###💻 Day-5 of Python Learning
+
+###Today I tried solving a math problem using Python — finding the roots of a quadratic equation.
+
+##📚 What I worked on:
 While loop
 If-else and nested conditions
 Using formulas in code
 
-💡 What I built:
+##💡 What I built:
 A simple program that takes values and tells whether the roots are real, equal, or imaginary, and calculates them.
 
-🧠 What I learned:
+##🧠 What I learned:
 I understood how to convert a mathematical formula into code and how loops can be used to repeat the process easily.
 
 
-🚧 Challenges:
+##🚧 Challenges:
 I made some mistakes with formulas and indentation at first, but fixing them helped me understand the logic better.
 
 Still learning step by step and improving every day 🚀
 #100DaysOfCode #Python #LearningJourney
 
+
+
 ###Day 6 – Python Learning Plan
 
-📌 Topics Covered
+##📚 Topics Covered
 1.Strings
 2.String methods.
 3.Indexing
@@ -170,40 +175,51 @@ solved problems basedon string methods from codechef and from GeeksforGeeks.
 Consistency is the key.
 
 
-###Day-7 python learning:
+###Day 7 – Python Learning
 
-###📌Topics Covered:
-1. Lists.
-2. Features of lists.
-
-###🧠 Learning:
-1.list is a data type which can store any type of data.
-2.Lists are mutable(elements are changeable)
-3.lists are orderd(which a sequence or index positions)
-4.List is represented by[].
-5.Empty list can be created by L=list().
-
-###🧠 What I Have Learned.
-Creating Lists in Python.
-Accessing List Elements using Index
-Updating List Values
-###List Methods
-append()
-remove()
-pop()
-
-###List Operations
-len()
-max()
-min()
-sum()
-
-###🎯 Goals
-Today it's hard , tommorow it's difficult ,but after that day it's beautiful.
+📚 Topics Covered
+Lists
+Features of Lists
+List Methods
+Basic List Operations
 
 
+##🧠 What I Learned:
+A list can store different types of data like numbers, strings, or even mixed values.
+Lists are mutable, which means we can change their elements after creating them.
+Lists are ordered, so every element has its own index position.
+Lists are written using square brackets [].
+We can also create an empty list using:
+L = []or L = list()
 
 
+## List Methods I Learned
+append() → Adds an element at the end of the list
+remove() → Removes a specific element from the list
+pop() → Removes an element from a specific index (default is the last element)
+insert() → Inserts an element at a specific position
+sort() → Sorts the elements in ascending order
 
+## List Operations
+
+These built-in functions help us perform operations on lists:
+
+len() → Finds the number of elements in a list
+max() → Returns the maximum value in the list
+min() → Returns the minimum value in the list
+sum() → Adds all elements in the list
+
+💻 Practice:
+Creating lists
+Accessing list elements using indexing
+Updating values inside a list
+
+
+🎯 Goal
+Today it's hard.
+Tomorrow it may feel even more difficult.
+But one day all this effort will become something beautiful.
+
+Learning step by step every day 🚀
 
 
