@@ -9,7 +9,9 @@
 ###🧠Learning.
 prints statements- print statements are those statements that are used to display the output.
 Variables- variables are used to data in memory location .
-variables must start from letters or underscores.
+variables contain letters(a-z)or(A-Z) ,numbers(0-9) and undescores(_).
+Identifiers are case sensitive(ais not equal to A).
+Extension of python is .py
 
 ###💻  practice
 solved 2 problems in hackerrank.
@@ -23,12 +25,16 @@ solved 2 problems in hackerrank.
 ###📚Topics covered:
 1,Data Types
 2.Operators
+3.comments
 
 ###🧠Learning
 Data types:
 int= often called integers.
 float=decimal form. 
 Boolean=whichgives output as True or False.
+char -single characters like a,b,x.
+String-group of letters.
+
 
 OPERATORS:
 1.Arithmetic operators(+,-,*,/,%,**,//).
@@ -36,6 +42,14 @@ OPERATORS:
 3.relational operators(,>,<,>=,<=,==,!=).
 4.Logical operators=and, or, not.
 5.membership operators(in, not in).
+#a+b=c .here a and b are operands , + is the operator and overll becomes operation.
+
+## comments:
+* comments are used to understand the code.
+* comments are not include in the code .
+* it uses # and """/''' .
+1.single line comment- # one line comment.
+2. multi line comments- used when more content is there uses ('''/""").
 
 ###💻 practice
 Solved question from GeeksforGeeks and hackerrank.
@@ -46,16 +60,16 @@ Solved question from GeeksforGeeks and hackerrank.
 ### Day 3
 
 ### 📚 Topics Covered:
-1. Dynamic Typing  
+1. Type casting.  
 2. Input and Output  
 3. Conditional Statements (if, elif, else)  
 
 
 ### 🧠 Learning:
 
-#### Dynamic Typing:
-- In Python, variables do not need a fixed data type  
-- A variable can store different types of values at different times  
+## Type conversion:
+converting one data type into another data type is called type conversion.
+ 
 
 #### Input:
 - input() function is used to take user input  
@@ -124,6 +138,7 @@ A simple program that takes values and tells whether the roots are real, equal, 
 🧠 What I learned:
 I understood how to convert a mathematical formula into code and how loops can be used to repeat the process easily.
 
+
 🚧 Challenges:
 I made some mistakes with formulas and indentation at first, but fixing them helped me understand the logic better.
 
@@ -133,24 +148,26 @@ Still learning step by step and improving every day 🚀
 ###Day 6 – Python Learning Plan
 
 📌 Topics Covered
-Functions (def)
-Function Parameters
-Return Values
-Calling Functions
-Modular Programming (breaking code into parts)
+1.Strings
+2.String methods.
+3.Indexing
+
 
 🧠 What I Have Learned
-How to create and use functions
-How to pass inputs using parameters
-How to return values from functions
-How to make code clean and reusable
-How to organize programs into smaller parts
+string- a group of characters or letters is known as string.
+## string methods:
+1. str.upper()- converts all characters into capital letters
+2. str.lower()- convert all characters into small letters.
+3. str.strip()- NO space().
+4. str.replace()-("before","after") like it is used to repalce the string.
+5. str.len()- tells about the length of string or tells about how many character are present.
+   
+##Practice.
+solved problems basedon string methods from codechef and from GeeksforGeeks.
 
-🎯 Goals
-Convert existing programs using functions
-Improve code structure and readability
-Build a modular version of real-world programs
-Prepare for writing better projects
+   
+🎯 Goals:
+Consistency is the key.
 
 
 ###Day-7 python learning:
@@ -183,6 +200,7 @@ sum()
 
 ###🎯 Goals
 Today it's hard , tommorow it's difficult ,but after that day it's beautiful.
+
 
 
 
