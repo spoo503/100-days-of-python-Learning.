@@ -1,0 +1,21 @@
+##Problem 1.
+item=(10,20,34,6)
+print(type(item))    #tuple
+print(item)        # item=(10,20,34,6)
+print(sum(item))   # 70
+print(max(item))   #34
+print(min(item))   #6
+print(item.count(4))  # 0
+print(item[2])
+item=list(item)  # converting tuple into list
+item.append
+print(item)
+
+##Problem 2.
+# unpacking
+student=("Srikar",19,"MBBS")
+name,age,course="Srikar",19,"MBBS"
+print("My Name is"+name+ "I am studying in "+course + "and my age is" +age)
+
+
+
