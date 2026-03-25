@@ -1,104 +1,247 @@
 # 100-days-of-python-Learning🚀
 
+
+
 ###Day-1 of python learning.
 
+
+
 ###📚 Topics covered:
+
+
 1. print-statemnts
+
+   
 2.variables.
 
 
 
+
+
 ###🧠Learning.
+
+
 prints statements- print statements are those statements that are used to display the output.
+
+
 Variables- variables are used to data in memory location .
+
+
 variables contain letters(a-z)or(A-Z) ,numbers(0-9) and undescores(_).
+
+
 Identifiers are case sensitive(ais not equal to A).
+
+
 Extension of python is .py
 
+
+
 ###💻  practice
+
+
 solved 2 problems in hackerrank.
 
+
+
 ###🎯 Goal:
+
+
 #completing 100 days code challege consistently.
+
+
 
 
 ###Day-2 of python Learning.
 
+
+
 ###📚Topics covered:
+
+
 1,Data Types
+
+
 2.Operators
+
+
 3.comments
 
+
+
 ###🧠Learning
+
+
 Data types:
+
+
 int= often called integers.
+
+
 float=decimal form. 
+
+
 Boolean=whichgives output as True or False.
+
+
 char -single characters like a,b,x.
+
+
 String-group of letters.
 
 
+
+
 ##OPERATORS:
+
+
 1.Arithmetic operators(+,-,*,/,%,**,//).
-2,Bitwise operators(^,&,|).
+
+
+2.Bitwise operators(^,&,|).
+
+
 3.relational operators(,>,<,>=,<=,==,!=).
+
+
 4.Logical operators=and, or, not.
+
+
 5.membership operators(in, not in).
+
+
 #a+b=c .here a and b are operands , + is the operator and overll becomes operation.
 
+
+
 ## comments:
+
+
 * comments are used to understand the code.
-* comments are not include in the code .
+
+  
+* comments are not include in the code.
+
+  
 * it uses # and """/''' .
+
+* 
 1.single line comment- # one line comment.
+
+  
 2. multi line comments- used when more content is there uses ('''/""").
 
+   
+
 ###💻 practice
+
+
 Solved question from GeeksforGeeks and hackerrank.
 
+
+
 ###🎯Goal:
+
+
 #consistency is the key for sucess.
+
+
 
 ### Day 3
 
+
+
 ## 📚 Topics Covered:
-1. Type casting.  
-2. Input and Output  
-3. Conditional Statements (if, elif, else)  
+
+
+1. Type casting.
+
+    
+2. Input and Output
+
+    
+3. Conditional Statements (if, elif, else)
+
+   
 
 
 ## 🧠 Learning:
 
+
+
 ## Type conversion:
+
+
 converting one data type into another data type is called type conversion.
+
+
  
 
 #### Input:
-- input() function is used to take user input  
-- It always returns data in string format  
-- We use int() or float() to convert it  
+
+
+- input() function is used to take user input
+
+  
+- It always returns data in string format
+
+   
+- We use int() or float() to convert it
+  
 
 ## Output:
-- print() function is used to display output  
-- It automatically converts values to string  
-- sep and end can be used to format output  
+
+
+- print() function is used to display output
+
+  
+- It automatically converts values to string
+
+  
+- sep and end can be used to format output
+
+   
 
 ## Conditional Statements:
-- if → checks condition  
+
+
+- if → checks condition
+
+
 - elif → checks multiple conditions  
+
+
 - else → runs when all conditions are false  
 
+
+
 ## 💻 Practice:
+
+
 - Practiced input/output programs  
+
+
 - Implemented real-life problems using conditions  
 
+
+
 ##⚠️ Mistake:
+
+
 - Got confused with input type conversion  
 
+
+
 ## 🎯 Goal:
+
+
 - Improve logical thinking and consistent
 
+
+
 ###Day-4 of Python Learning 🐍
+
+
 
 ##📚 Topics Covered:
 Conditional Statements (if, elif, else)
