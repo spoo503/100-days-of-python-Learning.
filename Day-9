@@ -1,0 +1,50 @@
+
+##problem 1.                                                                            ##concept:
+                                                                                       👉 Functions that calculate something → return a value
+                                                                                       👉 Functions that modify a data structure → usually return None
+apps={"Insta","linkdin","Github","unstop","Whatsapp"}                         
+student={"Insta","Whatsapp","Sanpchat","linkdin","Github","Leetcode"}
+print("The union of apps and student apps are",apps|student)
+print("The most commmon apps used by student and apps",apps&student)
+print("The diffrence of apps and students is",apps-student)
+print(apps.add("Leetcode"))  #none
+apps.add("Leetcode")
+print(apps)
+apps.remove("Leetcode")
+print(apps)
+apps.clear()
+print(apps)
+student.discard("Insta")
+print(student)
+student.pop()       # pop does not take arguments.
+print(student)
+
+#problem -2
+
+print("Welcome to the college tech event Registration")
+print("Choose a events based on your interest")
+Events={"Coding","Hackthon","AI Workshop","Robotics"}
+n=int(input("Enter the numberm of student participating in the event program"))
+coding_count=0
+all_events=[]
+unique_events=set()
+for i in range(n):
+     Name=input("Enter the name of the student")
+     partci=input("Enter the events your participating in tech events")
+     partci=partci.split(",") # donot use list as it converts whole thing is diffrent elements ,so use split
+     print(partci)
+     all_events.extend(partci)                                            # store events in list all_events.extend(partci)
+     unique_events.update(partci)
+     print(partci.count("Coding"))     # store unique events in set                                                                   
+     if "Coding" in partci:
+        coding_count+=1
+     if len(partci)>=2 :  # we cannot uses if(partci>=2) as it is list so we need length 
+         print("You are elgible for discount")
+else:
+    print("Thank you for registering")
+print("The number of students participating in the event is",n)
+print("Number of students in coding",coding_count)
+print("All events selected:", all_events)
+print("Unique events:", unique_events)
+
+
