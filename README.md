@@ -468,5 +468,84 @@ Every small concept I learn today is building the foundation for stronger progra
 My goal is to keep learning Python consistently every day and gradually move towards solving more complex programming problems.
 
 
+###Day-9 of python learning.
+
+
+📚 Topics Covered:
+1.Sets
+
+2.Set operations.
+
+## What I have learnt:
+
+1.Set stores only unique elements,if we add duplicat elements it automaticllly removes from the set.
+
+2.Sets are unorederd which means they don't have a fixed order
+
+3. Sets are unindexed which means we cannot acess the elemnts using positions.
+   
+
+3.Empty set can be created by writing s=set()
+
+
+
+4.Set is determined by {}.
+
+
+
+##SET OPERATIONS.
+
+
+
+1.set.add()- used to add new  elements to set.
+
+
+2.set.remove()- used to remove specific element .
+
+
+3.set.discard()-used to remove elements but does not give error if it is not present.
+
+
+4.set.pop- used to remove random element.
+
+
+5.set.clear- removes all elements from the set.
+
+
+
+6.Union(|)- used to combine two  sets of elements.
+
+
+
+7.intesection(&)- used to get common elements from the two  sets.
+
+
+
+8.Diff(-)-  returns elements that are present in one set but not in the other
+
+
+
+##Practice.
+
+
+Today I practiced a few problems related to sets and set operations.
+I also tried some questions from assignments and online resources to better understand how sets work in Python.
+
+🎯 Goal
+
+
+
+My goal is to stay consistent with my 100 days of Python learning challenge and keep improving my programming skills step by step.
+
+Learning something new every day, even if it is small, will help me become better over time. 
+
+
+
+
+
+
+
+
+
 
 
