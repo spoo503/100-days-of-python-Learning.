@@ -540,6 +540,215 @@ My goal is to stay consistent with my 100 days of Python learning challenge and 
 Learning something new every day, even if it is small, will help me become better over time. 
 
 
+##Day-10 of python learning.
+
+📚 Topics Covered:
+1. Dictionqry
+2. Features of dictonaries.
+
+## What I have learnt:
+1.Dictionaries are represented by flower brackets{}.
+2.Dictionaary are the one which stores the value in the foem of key-value pairs.
+3.they are mutable
+3.key- immutable whereas value -mutable.
+4.they are unordered and unindexed which means they donot have fixed positions to access the elements from the dictionaries.
+5.we cannot  acess the elements directly.
+
+##Practice
+i have solved some question from GeeksfromGreeks.
+
+## Goals.
+consistency and patience is mire ij.'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
