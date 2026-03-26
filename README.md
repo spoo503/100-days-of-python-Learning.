@@ -554,13 +554,20 @@ Learning something new every day, even if it is small, will help me become bette
 4.they are unordered and unindexed which means they donot have fixed positions to access the elements from the dictionaries.
 5.In dictionaries we can access elements using keys.
 
-Example:
+#functions of dictionary:
+1.keys()-return the key elements from the dictionary.
+2.values()- return the values from the dictionary.
+3.get()- helps to get or acess the values.
+4.clear()- Remove all elements and return none .
+5.pop()- remove specific  key-value from the dictionary.
+6.items()- returns both key and values in the from of tuples.
+7.popitem()- removes last inserted key-value pair.
 
 ##Practice
 i have solved some question from GeeksfromGreeks.
 
 ## Goals.
-consistency and patience is mire ij.'
+consistency and patience is more important.'
 
 
 
