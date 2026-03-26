@@ -552,7 +552,9 @@ Learning something new every day, even if it is small, will help me become bette
 3.they are mutable
 3.key- immutable whereas value -mutable.
 4.they are unordered and unindexed which means they donot have fixed positions to access the elements from the dictionaries.
-5.we cannot  acess the elements directly.
+5.In dictionaries we can access elements using keys.
+
+Example:
 
 ##Practice
 i have solved some question from GeeksfromGreeks.
