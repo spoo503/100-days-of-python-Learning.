@@ -1,0 +1,43 @@
+
+##problem 1.
+student ={"Name" : "Sri", "Class": "MBBS","Sec":"A11"}
+print(type(student))                                                                   # problem
+print(student.keys())
+print(student.values())
+print(student.get("Name"))
+print(student.items())    # prints key-value pairs as tuples
+print(student.pop("Class"))
+print(student.popitem())       # removes the last inserted pair -> ('Sec','A11')
+print(student.clear())       # clear() removes everything but RETURNS None
+student.clear()
+print(student)   #it gives empty dictionary.
+student = {"Name": "Sri", "Class": "MBBS", "Sec": "A11"}
+student_1 = student.copy()
+print(student_1)
+print(student.copy(student_1))       # same none as modifying 
+student.copy(student_1)
+print(student_1)    # prints student_1 items
+print(student_1.update("Name" : "Bhoomi"))    # update() modifies dictionary but RETURNS None
+student_1.update("Name":"Bhoomi")            # updates and displays 
+print(student_1)
+print(student_1)
+
+##problem 2.
+print("WELCOME TO THE COLLEGE CLUB REGISTRATION")
+n= int(input("ENter the number of students participating int he event."))
+coding_count=0
+for i in range(n):
+   Name=input("Enter the student name")
+   club_no =int(input("Enter the number of clubs you want to joinin the event"))
+   print(club_no)
+   club_name=input("Enter the club names you want to join ").split()
+   Zone = {"NAME" :Name, "CLUB" :club_name}
+   print(Zone)
+   if club_no >=2:
+      print("You are elgible to clube badge")
+                                           # if club_name=="Coding" : # this wiil never be be true so 
+    if "Coding" in cub_name:
+      coding_count+=1
+print("Total number of students particiating int he event is",n)
+print("TOtal number of people joined coding clubs are ",coding_count)
+
