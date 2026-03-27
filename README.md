@@ -543,8 +543,8 @@ Learning something new every day, even if it is small, will help me become bette
 ##Day-10 of python learning.
 
 📚 Topics Covered:
-1. Dictionqry
-2. Features of dictonaries.
+1. Dictionary
+2. Functions of dictonaries.
 
 ## What I have learnt:
 1.Dictionaries are represented by flower brackets{}.
@@ -570,6 +570,86 @@ i have solved some question from GeeksfromGreeks.
 consistency and patience is more important.'
 
 
+
+##Day 11 of Python Learning
+
+
+📚 Topics Covered
+What is a Function
+Defining a Function using def
+Calling a Function
+Parameters and Arguments
+return Statement
+Difference between print and return
+
+
+🧠 What I Learnt
+
+
+
+📚 1. What is a Function
+
+A function is a block of code that performs a specific task and can be used multiple times in a program.
+
+Instead of writing the same code again and again, we create a function and reuse it whenever needed.
+
+
+
+
+
+📚 2. Defining a Function (def)
+
+Functions are defined using the def keyword.
+
+Syntax:
+
+def function_name():
+    statements
+
+
+📚 3. Calling a Function
+
+After defining a function, we must call it to execute the code inside it.
+
+
+📚 4. Parameters and Arguments
+
+Functions can take inputs to work with different values.
+
+Parameters
+
+Variables written inside the function definition.
+
+
+Arguments
+
+Values passed while calling the function.
+
+
+📚 5. Return Statement
+
+The return statement sends the result back from the function.
+
+
+
+📚 6. Difference Between print and return
+
+This is a very important concept.
+
+print()	return
+Displays output	Sends value back
+Cannot reuse result	Result can be stored
+Used for showing output	Used in calculations
+
+
+
+💻 Practice
+
+To understand these concepts better, I practiced writing simple programs using functions. I tried creating functions with parameters and experimented with using both print and return to see how they behave differently.
+
+🎯 Goals
+
+My goal is to become more comfortable with writing functions and using them to solve problems. I also want to practice more problems using functions so that I can build a strong foundation before starting Data Structures and Algorithms (DSA).
 
 
 
