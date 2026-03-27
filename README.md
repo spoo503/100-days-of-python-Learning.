@@ -575,12 +575,22 @@ consistency and patience is more important.'
 
 
 📚 Topics Covered
-What is a Function
-Defining a Function using def
-Calling a Function
-Parameters and Arguments
-return Statement
-Difference between print and return
+1.What is a Function
+
+
+2.Defining a Function using def
+
+
+3.Calling a Function
+
+
+4.Parameters and Arguments
+
+
+5.return Statement
+
+
+6.Difference between print and return
 
 
 🧠 What I Learnt
@@ -588,6 +598,8 @@ Difference between print and return
 
 
 📚 1. What is a Function
+
+
 
 A function is a block of code that performs a specific task and can be used multiple times in a program.
 
@@ -599,6 +611,8 @@ Instead of writing the same code again and again, we create a function and reuse
 
 📚 2. Defining a Function (def)
 
+
+
 Functions are defined using the def keyword.
 
 Syntax:
@@ -609,10 +623,14 @@ def function_name():
 
 📚 3. Calling a Function
 
+
+
 After defining a function, we must call it to execute the code inside it.
 
 
 📚 4. Parameters and Arguments
+
+
 
 Functions can take inputs to work with different values.
 
@@ -628,11 +646,15 @@ Values passed while calling the function.
 
 📚 5. Return Statement
 
+
+
 The return statement sends the result back from the function.
 
 
 
 📚 6. Difference Between print and return
+
+
 
 This is a very important concept.
 
@@ -643,9 +665,12 @@ Used for showing output	Used in calculations
 
 
 
+
 💻 Practice
 
 To understand these concepts better, I practiced writing simple programs using functions. I tried creating functions with parameters and experimented with using both print and return to see how they behave differently.
+
+
 
 🎯 Goals
 
