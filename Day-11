@@ -1,0 +1,40 @@
+#PROBLEM 1
+def get_input():
+ print("Enter which fuel ⛽ do you need")
+ print("1.Petrol")
+ print("2.Diseal")
+choice =int(input("Enter your choice "))
+return choice 
+def calculate():
+    while True:
+     choice =get_input()
+    n=int(input("Enter the number of liter furl required"))
+     if(choice==1):
+        liter=110*n
+     elif((choice==2):
+        liter=93*n
+     else:
+      print("No fuel is available")
+cont=int(input("Do you want to continue yes or no"))
+  if cont== "no": 
+    break
+ calculate()
+
+#PROBLEM 2:
+def items():
+ print("Enter the items  required")
+ n=int(input(" Enter the number of items taken"))
+ print(n)
+ return n
+def calculate(n):
+  Bill = n*100
+  if(Bill==2000):
+   print("You have got a gift hamper")
+  elif(Bill ==5000):
+    print("Congratulations 🎉 you won a 🎁 and 🍫")
+  else: 
+    print(" No offer or gifts are available")
+n =items()
+calculate(n)
+
+
