@@ -1,0 +1,61 @@
+### 💻 Practice Questions with Code
+
+**1. Default Argument**
+
+Write a function that greets a user. If no name is given, it should greet "Guest".
+
+```python
+def greet(name="Guest"):
+    print("Hello", name)
+
+greet("Bhoomi")
+greet()
+```
+
+---
+
+**2. Keyword Arguments**
+
+Create a function that prints student details using keyword arguments.
+
+```python
+def student(name, age, course):
+    print("Name:", name)
+    print("Age:", age)
+    print("Course:", course)
+
+student(name="Rahul", age=20, course="CSE")
+```
+
+---
+
+**3. Variable-Length Arguments (`*args`)**
+
+Write a function that calculates the sum of multiple numbers.
+
+```python
+def total_sum(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    print("Total:", total)
+
+total_sum(10, 20, 30, 40)
+```
+
+---
+
+**4. Local and Global Variables**
+
+Create a program that demonstrates the difference between local and global variables.
+
+```python
+x = 10   # global variable
+
+def show():
+    x = 5   # local variable
+    print("Local value:", x)
+
+show()
+print("Global value:", x)
+```
