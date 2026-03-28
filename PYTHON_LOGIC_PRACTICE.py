@@ -39,4 +39,41 @@ for i in range(n) :
 print("Total students participated in the event",n)
 print("TOtal students qualified for final round",tt)
 print("Highest score is",highest)
+
+
+#problem 2
+def borrow_books():
+  print("WELCOME TO THE SMART LIBRARY SYSTEM")
+  n=int(input("Enter the number of students"))
+  count=0
+  total_books=0
+  max_books=0
+  for i in range(n):
+     Name=input("ENter the name of the student")
+     ID=int(input("Enter the student id number"))
+     Books=int(input("Enter the number of books borrowed"))
+     total_books+=Books
+      Book_list=[]
+     for j in range(Books):
+        Book_name=input("Enter the book name")
+         Book_list.append(Book_name)
+           print(Book_list)
+           if "PYTHON" in Book_name:
+                count+=1
+           Details={"NAME":Name, "ID NUMBER":ID,"BOOKS":Book_list}
+         print(Details)
+   if Books>3:
+      print("Warning: YOu have exceded the limit")
+   else:
+      print("THANK YOU")
+   if Books>max_books:
+      max_books =  Books
+
+    print("NUMber of books python books are", count)
+    print("TOtal students borrowed books are",n)
+    print(Total books borrowed",total_books)
+    print("Students who borrowed python bookas",count)
+    print("Maximum books borrwed",max_books)
+ borrow_books()
+
    
