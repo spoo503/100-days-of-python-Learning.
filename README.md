@@ -678,17 +678,44 @@ My goal is to become more comfortable with writing functions and using them to s
 
 
 
+🚀 Day 12 – Python Learning Journey
+
+📚 Topics Covered
+Types of Functions in Python
+Default Arguments
+Keyword Arguments
+Variable-Length Arguments (*args)
+Scope of Variables (Local and Global)
 
 
+📖 Topic Explanation
 
+1. Types of Functions in Python
+Functions can be categorized based on how they take inputs and produce outputs. They help organize code into smaller reusable blocks.
 
+2. Default Arguments
+Default arguments allow a parameter to have a predefined value if no value is given during the function call.
 
+3. Keyword Arguments
+Keyword arguments allow values to be passed using parameter names, which improves readability and removes dependency on order.
 
+4. Variable-Length Arguments (*args)
+Variable-length arguments allow a function to accept multiple inputs without fixing the number of parameters.
 
+5. Scope of Variables (Local and Global)
+Variable scope defines where a variable can be accessed. Local variables exist inside functions, while global variables can be accessed throughout the program.
 
+🧪 Practice Examples
+Write a function that uses a default argument to display a message.
+Create a function that accepts values using keyword arguments.
+Write a function that accepts multiple numbers using *args.
+Create a program that shows the difference between local and global variables.
 
-
-
+🎯 Goals for Next Day
+Practice writing more programs using advanced function concepts.
+Understand how different types of arguments improve code flexibility.
+Solve logical problems using functions and arguments.
+Start learning about Python modules and built-in functions.
 
 
 
