@@ -42,6 +42,32 @@ print("Highest score is",highest)
 
 
 #problem 2
+📚 Problem 2: Smart Library Book Borrowing System
+
+Write a Python program to simulate a library book borrowing system.
+
+Task
+Ask for the number of students borrowing books.
+For each student, take:
+Name
+Student ID
+Number of books borrowed
+Ask the user to enter the name of each book.
+Store the student details using a dictionary.
+If a student borrows more than 3 books, display a warning.
+Count how many books contain the word "Python".
+At the end, display:
+Total number of students
+Total books borrowed
+Number of Python books
+Maximum books borrowed by a student
+
+Concepts Used: Functions, Loops, Lists, Dictionaries, Conditions.
+
+
+
+
+#answer
 def borrow_books():
   print("WELCOME TO THE SMART LIBRARY SYSTEM")
   n=int(input("Enter the number of students"))
