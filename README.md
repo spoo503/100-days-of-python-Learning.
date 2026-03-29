@@ -727,7 +727,37 @@ Start learning about Python modules and built-in functions.
 
 
 
+Day 13 Plan – Python Learning Journey
+📚 Topics to Cover
+What are Modules in Python
+Importing Modules (import)
+Using Built-in Modules (math, random)
+Creating Your Own Module
+Built-in Functions (len(), type(), range(), sum())
+📖 What You Should Learn
+Understand how modules help organize Python code into reusable files.
+Learn how to import modules to use functions written in other files.
+Explore some built-in modules like math and random.
+Understand how to create and use your own module.
+Practice using common built-in Python functions.
+🧪 Practice Tasks
 
+1️⃣ Write a program using the math module to calculate square root and power.
+
+2️⃣ Use the random module to generate a random number between 1 and 10.
+
+3️⃣ Create your own module file with a function and import it into another program.
+
+4️⃣ Write a program that uses built-in functions like:
+
+len()
+sum()
+max()
+type()
+🎯 Goal for Day 13
+Understand how Python programs can be split into multiple files using modules.
+Practice using built-in modules and functions.
+Improve code organization and reusability.
 
 
 
