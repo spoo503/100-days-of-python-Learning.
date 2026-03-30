@@ -1,39 +1,25 @@
-### 💻 Practice Questions with Code
+1.positonal arguments.
+  def sum(a,b):
+      total=a+b
+       print(total)
+return total
 
-**1. Default Argument**
-
-Write a function that greets a user. If no name is given, it should greet "Guest".
-
-```python
-def greet(name="Guest"):
-    print("Hello", name)
-
-greet("Bhoomi")
-greet()
-```
-
----
+2.Default Argument
+ def Marriage(boy,girl="Girl"):
+   print(f"{boy} marries {Girl})
+Marriage(pitter)
+output: pitter marries Girl. 
 
 **2. Keyword Arguments**
+def calculate(a,b):
+  total=a*b
+  print(total)
+calculate(b=9,a=243)
 
-Create a function that prints student details using keyword arguments.
 
-```python
-def student(name, age, course):
-    print("Name:", name)
-    print("Age:", age)
-    print("Course:", course)
-
-student(name="Rahul", age=20, course="CSE")
-```
-
----
 
 **3. Variable-Length Arguments (`*args`)**
 
-Write a function that calculates the sum of multiple numbers.
-
-```python
 def total_sum(*numbers):
     total = 0
     for num in numbers:
@@ -41,21 +27,21 @@ def total_sum(*numbers):
     print("Total:", total)
 
 total_sum(10, 20, 30, 40)
-```
 
----
+2. def Total(**details):
+   for key,value in details.items():
+      print(key,":",value)
+       return details
+details={"Name":"Sri","Age":"20","Course":"MBBS"}
+Total(**details)
+
+       
 
 **4. Local and Global Variables**
 
-Create a program that demonstrates the difference between local and global variables.
-
-```python
 x = 10   # global variable
-
 def show():
     x = 5   # local variable
     print("Local value:", x)
-
 show()
 print("Global value:", x)
-```
