@@ -125,5 +125,90 @@ cont=int(input("Do you want to continue yes or no"))
     break
  calculate()
 
-#
-   
+
+
+
+
+
+###🚗 Smart Parking Management System
+   class Vehicle:
+    pass
+
+
+print("WELCOME TO SMART PARKING SYSTEM")
+
+parking_lot = []
+
+while True:
+
+    print("\nWhat do you want to do?")
+    print("1. Add Vehicle")
+    print("2. Show Vehicles")
+    print("3. Search Vehicle")
+    print("4. Total Vehicles")
+    print("5. Exit")
+
+    choice = int(input("Enter the choice you want: "))
+
+    # ADD VEHICLE
+    if choice == 1:
+
+        ADD = int(input("How many vehicles you want to add: "))
+
+        for i in range(ADD):
+
+            vehicle_no = input("Enter the vehicle number: ")
+            name = input("Enter the name of owner: ")
+            vehicle_type = input("Enter the vehicle type (bike/car): ")
+
+            vehicle = {
+                "number": vehicle_no,
+                "name": name,
+                "type": vehicle_type
+            }
+
+            parking_lot.append(vehicle)
+
+        print("Vehicle added successfully!")
+
+    # SHOW VEHICLES
+    elif choice == 2:
+
+        if len(parking_lot) == 0:
+            print("No vehicles parked")
+        else:
+            for v in parking_lot:
+                print("Vehicle Number:", v["number"])
+                print("Owner Name:", v["name"])
+                print("Vehicle Type:", v["type"])
+                print()
+
+    # SEARCH VEHICLE
+    elif choice == 3:
+
+        search = input("Enter vehicle number to search: ")
+        found = False
+
+        for v in parking_lot:
+            if v["number"] == search:
+                print("Vehicle Found!")
+                print("Owner:", v["name"])
+                print("Type:", v["type"])
+                found = True
+
+        if found == False:
+            print("Vehicle not found")
+
+    # TOTAL VEHICLES
+    elif choice == 4:
+
+        print("Total vehicles parked:", len(parking_lot))
+
+    # EXIT
+    elif choice == 5:
+
+        print("Exiting system")
+        break
+
+    else:
+        print("Invalid choice")
