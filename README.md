@@ -656,12 +656,11 @@ The return statement sends the result back from the function.
 
 
 
-This is a very important concept.
 
-print()	return
-Displays output	Sends value back
-Cannot reuse result	Result can be stored
-Used for showing output	Used in calculations
+print()               	return
+Displays output   	   Sends value back
+Cannot reuse result	   Result can be stored
+Used for showing output	 Used in calculations
 
 
 
@@ -681,41 +680,55 @@ My goal is to become more comfortable with writing functions and using them to s
 🚀 Day 12 – Python Learning Journey
 
 📚 Topics Covered
+
+
 Types of Functions in Python
-Default Arguments
-Keyword Arguments
-Variable-Length Arguments (*args)
-Scope of Variables (Local and Global)
+
+1.postional Arguments
+
+2.Default Arguments
+
+3.Keyword Arguments
+
+4.Variable-Length Arguments (*args and **kwargs).
+
+5.Scope of Variables (Local and Global)
 
 
 📖 Topic Explanation
 
-1. Types of Functions in Python
-Functions can be categorized based on how they take inputs and produce outputs. They help organize code into smaller reusable blocks.
+1.Positional Arguments:
+it is a argument in which we konw the position of the parameters.
 
 2. Default Arguments
 Default arguments allow a parameter to have a predefined value if no value is given during the function call.
 
 3. Keyword Arguments
-Keyword arguments allow values to be passed using parameter names, which improves readability and removes dependency on order.
+Keyword arguments allow values to be passed using parameter .
 
 4. Variable-Length Arguments (*args)
+
 Variable-length arguments allow a function to accept multiple inputs without fixing the number of parameters.
+1.*args-which allows to accept mulitiple  inputs .
+2.**kwrags- which allows to acess the key-values inputs.
 
-5. Scope of Variables (Local and Global)
-Variable scope defines where a variable can be accessed. Local variables exist inside functions, while global variables can be accessed throughout the program.
+6. Scope of Variables (Local and Global)
+Variable scope defines where a variable can be accessed.
+1. Local variables exist inside functions.
+2.  global variables can be accessed throughout the program.
 
-🧪 Practice Examples
-Write a function that uses a default argument to display a message.
-Create a function that accepts values using keyword arguments.
-Write a function that accepts multiple numbers using *args.
-Create a program that shows the difference between local and global variables.
+🧪 Practice 
+tried solving the functions problems using all topics individually and combination of all.
+
 
 🎯 Goals for Next Day
 Practice writing more programs using advanced function concepts.
 Understand how different types of arguments improve code flexibility.
 Solve logical problems using functions and arguments.
 Start learning about Python modules and built-in functions.
+
+
+
 
 
 
