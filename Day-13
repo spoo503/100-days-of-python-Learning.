@@ -1,0 +1,6 @@
+class Student:
+    pass
+
+s1 = Student()
+
+print("Student object created")
