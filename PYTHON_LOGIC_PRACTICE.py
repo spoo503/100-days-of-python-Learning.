@@ -102,4 +102,28 @@ def borrow_books():
     print("Maximum books borrwed",max_books)
  borrow_books()
 
+
+#calulating the amount of get_input
+def get_input():
+ print("Enter which fuel ⛽ do you need")
+ print("1.Petrol")
+ print("2.Diseal")
+choice =int(input("Enter your choice "))
+return choice 
+def calculate():
+    while True:
+     choice =get_input()
+    n=int(input("Enter the number of liter furl required"))
+     if(choice==1):
+        liter=110*n
+     elif((choice==2):
+        liter=93*n
+     else:
+      print("No fuel is available")
+cont=int(input("Do you want to continue yes or no"))
+  if cont== "no": 
+    break
+ calculate()
+
+#
    
