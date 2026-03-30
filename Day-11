@@ -1,24 +1,28 @@
-#PROBLEM 1
-def get_input():
- print("Enter which fuel ⛽ do you need")
- print("1.Petrol")
- print("2.Diseal")
-choice =int(input("Enter your choice "))
-return choice 
-def calculate():
-    while True:
-     choice =get_input()
-    n=int(input("Enter the number of liter furl required"))
-     if(choice==1):
-        liter=110*n
-     elif((choice==2):
-        liter=93*n
-     else:
-      print("No fuel is available")
-cont=int(input("Do you want to continue yes or no"))
-  if cont== "no": 
-    break
- calculate()
+#problem 1:
+def progress_report():
+  MARKS=[]
+  total=0
+   Name=input("Enter the name of the student")
+   sub=int(input("Enter the total subjects"))
+   for i in range(sub):
+      marks=int(input("Enter the name fof the subject"))
+       MARKS.append(marks)
+       print(marks)
+        total+=marks
+        avg=total/marks
+       if(avg>=90):
+          print("EXCLLENT")
+       elif(avg>=80):
+           print("VERY GOOD")
+        elif(avg>=50):
+           print("GOOD")
+        else:
+          print("YOU COULD DO BETTER")
+progress_report()
+print("NAME OF THE STUDENT",Name)
+print("Total marks",total)
+print("AVERAGE",avg)
+
 
 #PROBLEM 2:
 def items():
