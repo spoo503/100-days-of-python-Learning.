@@ -773,6 +773,35 @@ Practice using built-in modules and functions.
 Improve code organization and reusability.
 
 
+## 🚀 Day 13 – Python Learning Journey
+
+### 📚 Topics Covered
+
+1. Introduction to Object-Oriented Programming (OOP)
+2. Class and Object
+3. Creating a Class in Python
+4. Creating Objects from a Class
+
+### 📖 What I Learned
+
+
+I learned that **OOP is a programming approach where we design programs using objects and classes**. It helps in structuring code in a way that is easier to manage, reuse, and understand.
+
+A **class** can be thought of as a blueprint or template. For example, if we want to represent students in a program, we can create a **Student class**. From this class, we can create multiple **objects**, where each object represents a real student with their own data.
+
+### 🧪 Practice
+
+* Created a simple **Student class** and stored student details.
+* Practiced creating objects and accessing their attributes.
+* Tried writing small programs using classes to understand how objects work.
+
+### 🎯 Goals for Next Day
+
+* Learn about **attributes and methods inside a class**.
+* Understand the difference between **instance variables and class variables**.
+* Practice more real-world examples using classes.
+
+
 
 
 
