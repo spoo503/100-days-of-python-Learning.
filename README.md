@@ -804,7 +804,45 @@ A **class** can be thought of as a blueprint or template. For example, if we wan
 
 
 
+.
 
+📅 Day 14 / 100 – Python Learning
+📌 Topic Covered
+Object Oriented Programming (OOP) Basics
+Constructors in Python (__init__)
+Instance Variables
+Creating Objects from Classes
+Simple Class Methods
+📚 What I Learnt
+A class is like a blueprint used to create objects.
+An object is an instance of a class that contains data and behavior.
+The __init__ constructor runs automatically when an object is created and is used to initialize values.
+The self keyword refers to the current object and is used to access instance variables.
+Instance variables store data that belongs to a specific object.
+Multiple objects can be created from the same class, each having its own values.
+💻 Practice
+
+Today I practiced writing simple OOP programs such as:
+
+1️⃣ Student Class Program
+
+Stored student name and marks.
+
+2️⃣ Rectangle Class
+
+Calculated the area using a method.
+
+3️⃣ Employee Class
+
+Stored employee name and salary.
+
+4️⃣ Created multiple objects to understand how each object holds different data.
+
+🎯 Goals
+Get comfortable writing classes and creating objects.
+Practice more problems using constructors and instance variables.
+Improve understanding of how OOP helps organize programs better.
+Next step: learn instance methods, class methods, and static methods in Python.
 
 
 
