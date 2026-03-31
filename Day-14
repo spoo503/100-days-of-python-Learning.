@@ -1,0 +1,19 @@
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+s1 = Student("Aman", 85)
+
+print("Name:", s1.name)
+print("Marks:", s1.marks)
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+e1 = Employee("Ravi", 50000)
+
+print("Employee Name:", e1.name)
+print("Salary:", e1.salary)
