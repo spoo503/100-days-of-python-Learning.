@@ -835,7 +835,29 @@ Practice more problems using constructors and instance variables.
 Improve understanding of how OOP helps organize programs better.
 Next step: learn instance methods, class methods, and static methods in Python.
 
-Day-16:
+Day-16:📅 Day 16 – Python Learning Journey
+📚 Topics Covered
+Encapsulation in Python
+Access Modifiers – Public, Protected, Private
+Data Hiding using Private Variables
+Abstraction in Python
+Using methods to control access to data
+📖 What I Learnt
+Encapsulation means wrapping data and methods together inside a class to protect the data from direct access.
+Learned about public, protected, and private variables and how they control access to class data.
+Understood how private variables (__variable) help hide sensitive data inside a class.
+Abstraction means hiding complex implementation details and only showing necessary features to the user.
+Realized that encapsulation and abstraction make programs more secure, organized, and easier to maintain.
+🧪 Practice
+Created a BankAccount class where the balance is stored as a private variable.
+Used methods like deposit() and withdraw() to update the balance safely.
+Built a simple program to demonstrate data hiding using private variables.
+Practiced using methods to access and modify private data.
+🎯 Goals
+Understand how encapsulation protects data in programs.
+Practice writing programs that use private variables and methods.
+Learn how abstraction simplifies complex programs.
+Prepare for the next topic: Inheritance in Python.
 
 
 
