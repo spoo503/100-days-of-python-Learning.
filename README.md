@@ -725,17 +725,7 @@ tried solving the functions problems using all topics individually and combinati
 Practice writing more programs using advanced function concepts.
 Understand how different types of arguments improve code flexibility.
 Solve logical problems using functions and arguments.
-Start learning about Python modules and built-in functions.
-
-
-
-
-
-
-
-
-
-
+Start learning about Python modules and built-in functions
 
 
 
@@ -773,7 +763,7 @@ Practice using built-in modules and functions.
 Improve code organization and reusability.
 
 
-## 🚀 Day 13 – Python Learning Journey
+## 🚀 Day 14 – Python Learning Journey
 
 ### 📚 Topics Covered
 
@@ -783,6 +773,7 @@ Improve code organization and reusability.
 4. Creating Objects from a Class
 
 ### 📖 What I Learned
+
 
 
 I learned that **OOP is a programming approach where we design programs using objects and classes**. It helps in structuring code in a way that is easier to manage, reuse, and understand.
@@ -806,7 +797,7 @@ A **class** can be thought of as a blueprint or template. For example, if we wan
 
 .
 
-📅 Day 14 / 100 – Python Learning
+📅 Day 15 / 100 – Python Learning
 📌 Topic Covered
 Object Oriented Programming (OOP) Basics
 Constructors in Python (__init__)
@@ -844,6 +835,7 @@ Practice more problems using constructors and instance variables.
 Improve understanding of how OOP helps organize programs better.
 Next step: learn instance methods, class methods, and static methods in Python.
 
+Day-16:
 
 
 
