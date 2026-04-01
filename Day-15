@@ -1,0 +1,56 @@
+# Student Management System (Python OOP)
+This project is a Python program built using Object-Oriented Programming concepts.  
+It stores student details, calculates total and average marks, and assigns grades based on performance.
+
+class Student():
+        def __init__(self,name,ID,course,mark1,mark2,mark3):
+             self.name=name
+             self.ID=ID
+             self.course=course
+             self.mark1=mark1
+             self.mark2=mark2
+             self.mark3=mark3
+         def calculate_total(self):
+             Total=self.mark1+self.mark2+self.mark3
+              print("Total marks",Total)
+              return Total
+         def calculate_average(self):
+               avg=Total/3
+               print("Average of the total marks is",avg)
+         def calculate_grade(self):
+             Total=self.calculate_average()
+             if(Total>90):
+                print("GRADE A")
+             elif(Total<=80):
+                print("GRADE B")
+            elif(Total<50):
+               print("GRADE C")
+            else:
+               print("YOu could do better")
+        def display(self):
+           DETAILS={"NAME":self.name,"ID_no": self.ID,"COURSE":course,"MARK1":self.mark1,"MARK2":mark2,"MARK3":self.mark3}
+           print(DETAILS)
+students = []
+
+n = int(input("Enter number of students: "))
+
+for i in range(n):
+
+    name = input("Enter name: ").upper()
+    ID = int(input("Enter ID: "))
+    course = input("Enter course: ")
+
+    m1 = int(input("Enter mark1: "))
+    m2 = int(input("Enter mark2: "))
+    m3 = int(input("Enter mark3: "))
+
+    s = Student(name, ID, course, m1, m2, m3)
+
+    students.append(s)
+
+for s in students:
+    s.display()
+    print("Total:", s.calculate_total())
+    print("Average:", s.calculate_average())
+    print("Grade:", s.calculate_grade())
+
