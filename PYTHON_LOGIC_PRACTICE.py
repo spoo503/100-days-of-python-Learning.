@@ -277,3 +277,35 @@ book1.Return_book()
 
 # Display again
 book1.display()
+
+
+
+Design a simple Restaurant Ordering System using Python and Object-Oriented Programming.
+Create a class that stores the food item, price, and quantity ordered, 
+and implement methods to display the order details and calculate the total bill.
+
+class Resturant():
+    def __init__(self,item,price,quant):
+        self.item=item
+        self.price=price
+        self.quant=quant
+    def display(self):
+        print("the item you ordered",self.item)
+        print("The price of the item",self.price)
+    def calculate_total(self):
+        total=self.price*self.quant
+        print("Total bill",total)
+        order={"ITEM":self.item,"PRICE":self.price}
+        print("THe details of order",order)
+    def final_order(self):
+                 total=self.price*self.quant
+                 final_order={"ITEM":self.item,"PRICE":self.price}
+                 print("Final amount",total)
+item=input("Enter the item of the food")
+price=int(input("Enter the price of item"))
+quant=int(input("ENter the quanta"))
+Menu=Resturant(item,price,quant)
+Menu.display()
+Menu.calculate_total()
+Menu.final_order()
+        
