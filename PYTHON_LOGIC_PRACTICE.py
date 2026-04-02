@@ -212,3 +212,68 @@ while True:
 
     else:
         print("Invalid choice")
+
+
+
+
+
+
+
+
+Design a simple Library Management System using Python and Object-Oriented Programming.
+Create a class to store book details such as book ID, name, author, and status, and implement methods to display book information, 
+issue a book to a student, and return the book.
+
+
+class Library_class():
+
+    def __init__(self, book_Id, Name, Author):
+        self.book_Id = book_Id
+        self.Name = Name
+        self.Author = Author
+        self.__status = "Available"
+        self.Student_name = None
+
+    def display(self):
+        print("Book ID:", self.book_Id)
+        print("Book Name:", self.Name)
+        print("Author:", self.Author)
+        print("Status:", self.__status)
+
+    def Issue_book(self, Student_name):
+        if self.__status == "Available":
+            self.Student_name = Student_name
+            self.__status = "Issued"
+            print("Book issued to", self.Student_name)
+        else:
+            print("Book is already issued")
+
+    def Return_book(self):
+        if self.__status == "Issued":
+            print("Book returned by", self.Student_name)
+            self.Student_name = None
+            self.__status = "Available"
+        else:
+            print("Book was not issued")
+
+
+# User Input
+book_Id = int(input("Enter the book id: "))
+Name = input("Enter the name of the book: ")
+Author = input("Enter the author of the book: ")
+
+# Object creation
+book1 = Library_class(book_Id, Name, Author)
+
+# Display book details
+book1.display()
+
+# Issue book
+student = input("Enter student name to issue book: ")
+book1.Issue_book(student)
+
+# Return book
+book1.Return_book()
+
+# Display again
+book1.display()
