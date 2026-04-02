@@ -793,12 +793,15 @@ A **class** can be thought of as a blueprint or template. For example, if we wan
 .
 
 📅 Day 15 / 100 – Python Learning
+
 📌 Topic Covered
 Object Oriented Programming (OOP) Basics
 Constructors in Python (__init__)
 Instance Variables
 Creating Objects from Classes
 Simple Class Methods
+
+
 📚 What I Learnt
 A class is like a blueprint used to create objects.
 An object is an instance of a class that contains data and behavior.
@@ -806,6 +809,8 @@ The __init__ constructor runs automatically when an object is created and is use
 The self keyword refers to the current object and is used to access instance variables.
 Instance variables store data that belongs to a specific object.
 Multiple objects can be created from the same class, each having its own values.
+
+
 💻 Practice
 
 Today I practiced writing simple OOP programs such as:
@@ -824,13 +829,15 @@ Stored employee name and salary.
 
 4️⃣ Created multiple objects to understand how each object holds different data.
 
+
 🎯 Goals
 Get comfortable writing classes and creating objects.
 Practice more problems using constructors and instance variables.
 Improve understanding of how OOP helps organize programs better.
 Next step: learn instance methods, class methods, and static methods in Python.
 
-Day-16:📅 Day 16 – Python Learning Journey
+
+📅 Day 16 – Python Learning Journey
 
 📚 Topics Covered
 Encapsulation in Python
@@ -863,6 +870,87 @@ Learn how abstraction simplifies complex programs.
 Prepare for the next topic: Inheritance in Python.
 
 
+###Day-17
+
+📅 Day 17 – Python Plan (Inheritance & Polymorphism)
+📚 Topics
+1️⃣ Types of Inheritance
+
+Learn the different inheritance structures in Python:
+
+Single Inheritance – one child, one parent
+Multiple Inheritance – one child, multiple parents
+Multilevel Inheritance – grandparent → parent → child
+Hierarchical Inheritance – one parent, multiple children
+
+Example (Single Inheritance):
+
+class Animal:
+    def sound(self):
+        print("Animal makes sound")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+
+d = Dog()
+d.sound()
+d.bark()
+2️⃣ Method Overriding (Polymorphism)
+
+Child class changes the behavior of parent method.
+
+Example:
+
+class Animal:
+    def sound(self):
+        print("Animal sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
+
+a = Dog()
+a.sound()
+3️⃣ Method Overloading (Basic idea in Python)
+
+Python handles this using default arguments.
+
+Example:
+
+class Add:
+    def sum(self,a,b=0,c=0):
+        print(a+b+c)
+
+obj = Add()
+
+obj.sum(2,3)
+obj.sum(2,3,4)
+💻 Practice Questions
+Question 1
+
+Create a Vehicle class with a method start().
+Create a Car class that inherits from Vehicle and adds a method drive().
+
+Question 2
+
+Create a Shape class with a method area().
+Create Circle and Rectangle classes that override the area() method.
+
+Question 3
+
+Create a Person class and a Student class that inherits from Person and displays student details.
+
+🧠 What You Will Learn
+How child classes reuse parent code
+How method overriding works
+How polymorphism changes behavior
+
+🎯 Goal for Day 17
+
+✔ Understand types of inheritance
+✔ Practice method overriding
+✔ Write 3 small OOP programs
 
 
 
