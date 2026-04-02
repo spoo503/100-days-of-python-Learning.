@@ -1,0 +1,50 @@
+#problem12 Vehicle and Car (Single Inheritance)
+
+Code:
+
+class Vehicle:
+    def start(self):
+        print("Vehicle is starting")
+
+class Car(Vehicle):
+    def drive(self):
+        print("Car is driving")
+
+c = Car()
+
+c.start()
+c.drive()
+
+Output
+
+Vehicle is starting
+Car is driving
+
+Concept used:
+✔ Inheritance (Car inherits Vehicle)
+
+#problem2 Shape, Circle, Rectangle (Polymorphism / Method Overriding)
+
+Code:
+
+class Shape:
+    def area(self):
+        print("Area calculation")
+
+class Circle(Shape):
+    def area(self):
+        r = int(input("Enter radius: "))
+        print("Area of circle:", 3.14 * r * r)
+
+class Rectangle(Shape):
+    def area(self):
+        l = int(input("Enter length: "))
+        b = int(input("Enter breadth: "))
+        print("Area of rectangle:", l * b)
+
+c = Circle()
+c.area()
+
+r = Rectangle()
+r.area()
+
