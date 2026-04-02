@@ -11,9 +11,7 @@
 
 1. print-statemnts
 
-   
 2.variables.
-
 
 
 
@@ -21,16 +19,17 @@
 ###🧠Learning.
 
 
+
 prints statements- print statements are those statements that are used to display the output.
 
 
-Variables- variables are used to data in memory location .
+Variables- variables are used to  store data in memory location .
 
 
 variables contain letters(a-z)or(A-Z) ,numbers(0-9) and undescores(_).
 
 
-Identifiers are case sensitive(ais not equal to A).
+Identifiers are case sensitive(a is not equal to A).
 
 
 Extension of python is .py
@@ -40,7 +39,7 @@ Extension of python is .py
 ###💻  practice
 
 
-solved 2 problems in hackerrank.
+solved 1 problem in hackerrank.
 
 
 
@@ -52,6 +51,8 @@ solved 2 problems in hackerrank.
 
 
 
+
+
 ###Day-2 of python Learning.
 
 
@@ -59,7 +60,7 @@ solved 2 problems in hackerrank.
 ###📚Topics covered:
 
 
-1,Data Types
+1.Data Types
 
 
 2.Operators
@@ -78,16 +79,16 @@ Data types:
 int= often called integers.
 
 
-float=decimal form. 
+float= decimal form. 
 
 
-Boolean=whichgives output as True or False.
+Boolean=which gives output as True or False.
 
 
-char -single characters like a,b,x.
+char =single characters like a,b,x.
 
 
-String-group of letters.
+String =group of characters.
 
 
 
@@ -110,7 +111,7 @@ String-group of letters.
 5.membership operators(in, not in).
 
 
-#a+b=c .here a and b are operands , + is the operator and overll becomes operation.
+#a+b=c .here a and b are operands , + is the operator and overall becomes operation.
 
 
 
@@ -123,7 +124,7 @@ String-group of letters.
 * comments are not include in the code.
 
   
-* it uses # and """/''' .
+* it uses # and """ or ''' .
 
 * 
 1.single line comment- # one line comment.
@@ -186,7 +187,7 @@ converting one data type into another data type is called type conversion.
 - It always returns data in string format
 
    
-- We use int() or float() to convert it
+- We use int() or float() to convert it(Typecasting).
   
 
 ## Output:
@@ -222,14 +223,6 @@ converting one data type into another data type is called type conversion.
 
 
 - Implemented real-life problems using conditions  
-
-
-
-##⚠️ Mistake:
-
-
-- Got confused with input type conversion  
-
 
 
 ## 🎯 Goal:
@@ -286,9 +279,6 @@ A simple program that takes values and tells whether the roots are real, equal, 
 ##🧠 What I learned:
 I understood how to convert a mathematical formula into code and how loops can be used to repeat the process easily.
 
-
-##🚧 Challenges:
-I made some mistakes with formulas and indentation at first, but fixing them helped me understand the logic better.
 
 Still learning step by step and improving every day 🚀
 #100DaysOfCode #Python #LearningJourney
@@ -548,7 +538,7 @@ Learning something new every day, even if it is small, will help me become bette
 
 ## What I have learnt:
 1.Dictionaries are represented by flower brackets{}.
-2.Dictionaary are the one which stores the value in the foem of key-value pairs.
+2.Dictionary are the one which stores the value in the form of key-value pairs.
 3.they are mutable
 3.key- immutable whereas value -mutable.
 4.they are unordered and unindexed which means they donot have fixed positions to access the elements from the dictionaries.
@@ -731,12 +721,17 @@ Start learning about Python modules and built-in functions
 
 
 Day 13 Plan – Python Learning Journey
+
+
 📚 Topics to Cover
 What are Modules in Python
 Importing Modules (import)
 Using Built-in Modules (math, random)
 Creating Your Own Module
 Built-in Functions (len(), type(), range(), sum())
+
+
+
 📖 What You Should Learn
 Understand how modules help organize Python code into reusable files.
 Learn how to import modules to use functions written in other files.
@@ -836,23 +831,31 @@ Improve understanding of how OOP helps organize programs better.
 Next step: learn instance methods, class methods, and static methods in Python.
 
 Day-16:📅 Day 16 – Python Learning Journey
+
 📚 Topics Covered
 Encapsulation in Python
 Access Modifiers – Public, Protected, Private
 Data Hiding using Private Variables
 Abstraction in Python
 Using methods to control access to data
+
+
 📖 What I Learnt
 Encapsulation means wrapping data and methods together inside a class to protect the data from direct access.
 Learned about public, protected, and private variables and how they control access to class data.
 Understood how private variables (__variable) help hide sensitive data inside a class.
 Abstraction means hiding complex implementation details and only showing necessary features to the user.
 Realized that encapsulation and abstraction make programs more secure, organized, and easier to maintain.
+
+
+
 🧪 Practice
 Created a BankAccount class where the balance is stored as a private variable.
 Used methods like deposit() and withdraw() to update the balance safely.
 Built a simple program to demonstrate data hiding using private variables.
 Practiced using methods to access and modify private data.
+
+
 🎯 Goals
 Understand how encapsulation protects data in programs.
 Practice writing programs that use private variables and methods.
