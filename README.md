@@ -953,6 +953,12 @@ How polymorphism changes behavior
 ✔ Write 3 small OOP programs
 
 
+Day 18
+Today I completed around 20-question coding marathon to test and improve my Python problem-solving skills. I basically created three files in which one is logic bases question,easy_question and medium question.
+This helped me practice different concepts like loops, conditions, and logic building. but  I had problem in taking range in medium questions
+Feeling more confident with coding consistency. 🚀
+
+
 
 
 
