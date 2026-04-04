@@ -1,0 +1,124 @@
+Day 19 – Hard Practice Questions
+1️⃣ Find Second Largest Number in a List
+
+Question:
+Take n numbers from the user and print the second largest number.
+
+Code
+
+n=int(input("Enter number of elements: "))
+item=[]
+
+for i in range(n):
+    num=int(input("Enter number: "))
+    item.append(num)
+
+largest=item[0]
+second=item[0]
+
+for i in item:
+    if i>largest:
+        second=largest
+        largest=i
+    elif i>second and i!=largest:
+        second=i
+
+print("Second largest:",second)
+2️⃣ Check Palindrome String
+
+Question:
+Take a string from the user and check if it is a palindrome.
+
+Example
+madam → palindrome
+
+Code
+
+word=input("Enter a word: ")
+
+if word==word[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+3️⃣ Count Frequency of Each Element
+
+Question:
+Count how many times each number appears in the list.
+
+Example
+
+Input: [1,2,2,3,3,3]
+Output:
+1 → 1
+2 → 2
+3 → 3
+
+Code
+
+n=int(input("Enter number of elements: "))
+item=[]
+
+for i in range(n):
+    num=int(input("Enter number: "))
+    item.append(num)
+
+for i in item:
+    if item.count(i)>0:
+        print(i,"->",item.count(i))
+        item[item.index(i)]=None
+4️⃣ Find Common Elements Between Two Lists
+
+Question:
+Take two lists and print common elements.
+
+Code
+
+n=int(input("Enter size of first list: "))
+list1=[]
+for i in range(n):
+    num=int(input("Enter number: "))
+    list1.append(num)
+
+m=int(input("Enter size of second list: "))
+list2=[]
+for i in range(m):
+    num=int(input("Enter number: "))
+    list2.append(num)
+
+for i in list1:
+    if i in list2:
+        print("Common element:",i)
+5️⃣ Print Prime Numbers in a List
+
+Question:
+Take numbers in a list and print only prime numbers.
+
+Code
+
+n=int(input("Enter number of elements: "))
+item=[]
+
+for i in range(n):
+    num=int(input("Enter number: "))
+    item.append(num)
+
+for num in item:
+    count=0
+    for i in range(1,num+1):
+        if num%i==0:
+            count+=1
+    if count==2:
+        print("Prime:",num)
+🎯 Skills Covered (Day 1–19)
+
+These questions use:
+
+✔ variables
+✔ input/output
+✔ loops
+✔ if-else
+✔ lists
+✔ strings
+✔ logical thinking
+
+✅ If you want, I can also give Day 19 “Super Hard 5 Problems” that are almost beginner-level DSA questions (they will make Day 31 DSA much easier).
