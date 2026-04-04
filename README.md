@@ -961,66 +961,10 @@ Feeling more confident with coding consistency. 🚀
 
 
 
+Day 19 – Hard Practice Questions
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1️⃣ Today (Day 19), I practiced several challenging problems using the concepts I learned from Day 1 to Day 19. These exercises helped me strengthen my understanding of loops, conditions, lists, and string operations. Solving these problems improved my logical thinking and problem-solving skills in Python.
 
 
 
