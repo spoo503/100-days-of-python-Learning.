@@ -961,12 +961,35 @@ Feeling more confident with coding consistency. 🚀
 
 
 
-Day 19 – Hard Practice Questions
+Day 20 – Hard Practice Questions
 
 
-1️⃣ Today (Day 19), I practiced several challenging problems using the concepts I learned from Day 1 to Day 19. These exercises helped me strengthen my understanding of loops, conditions, lists, and string operations. Solving these problems improved my logical thinking and problem-solving skills in Python.
+1️⃣ Today (Day 20), I practiced several challenging problems using the concepts I learned from Day 1 to Day 19. These exercises helped me strengthen my understanding of loops, conditions, lists, and string operations. Solving these problems improved my logical thinking and problem-solving skills in Python.
 
 
+### 📅 Day 19 Practice – Smart Student Management System
+
+**Topics Covered**
+
+* Classes and Objects
+* Inheritance in Python
+* Lists and `sum()` function
+* Loops and Conditional Statements
+* Dictionaries for storing student details
+
+**What I Learned**
+Today I practiced building a small **Student Management System** using Python. I used **inheritance (Person → Child)** to manage student information like name, age, student ID, and marks. I also learned how to calculate **total marks using `sum()`** and compute the **percentage based on the number of subjects**. Additionally, I stored and sorted student totals in a list to identify the **top-scoring student**.
+
+**Practice Done**
+
+* Took input for multiple students and their subject marks
+* Calculated total marks and percentage
+* Assigned grades based on percentage
+* Stored student details in a dictionary
+* Sorted totals to find the highest score
+
+**Goal**
+Improve my understanding of **Python OOP concepts and logical problem solving**, and continue building more real-life programs as part of my **100 Days of Python learning journey**.
 
 
 
