@@ -1,0 +1,97 @@
+.
+
+🧠 Mega Revision Problem (Day 1 – Day 20)
+🏫 Smart Student Management System
+
+Question:
+
+Design a Smart Student Management System using Python and Object-Oriented Programming.
+
+Create a base class Person that stores the name and age of a person. Create a child class Student that inherits from Person and stores student ID and marks of multiple subjects.
+
+The program should allow the user to:
+
+Add multiple students and store their details.
+Calculate the total marks and percentage of each student.
+Determine whether the student passed or failed.
+Display the top-scoring student.
+Store and display all student data using lists and dictionaries.
+
+
+
+print("WELCOME TO SMART STUDENT MANAGMENT SYSTEM")
+
+Tot = []
+
+class Person():
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+
+class Child(Person):
+    def __init__(self,name,age,student_ID,marks):
+        super().__init__(name,age)
+        self.student_ID = student_ID
+        self.marks = marks
+
+    def calculate(self):
+
+        total = sum(self.marks)
+        print("Total marks of the subjects are:", total)
+
+        max_marks = len(self.marks) * 100
+        percentage = (total / max_marks) * 100
+
+        print("Percentage of the student is:", percentage)
+
+        if percentage > 90:
+            print("Excellent")
+        elif percentage >= 80:
+            print("Very Good")
+        elif percentage >= 75:
+            print("PASS")
+        else:
+            print("FAIL")
+
+        Tot.append(total)
+
+        details = {
+            "Name": self.name,
+            "AGE": self.age,
+            "STUDENT_ID": self.student_ID,
+            "MARKS": self.marks,
+            "TOTAL": total,
+            "PERCENTAGE": percentage
+        }
+
+        print("Student Details:", details)
+
+
+n = int(input("Enter number of students: "))
+
+for i in range(n):
+
+    name = input("Enter the name of the person: ")
+    age = int(input("Enter the age of the person: "))
+    student_ID = int(input("Enter the student ID: "))
+
+    marks = []
+    subjects = int(input("Enter number of subjects: "))
+
+    for j in range(subjects):
+        m = int(input("Enter marks: "))
+        marks.append(m)
+
+    obj = Child(name,age,student_ID,marks)
+
+    obj.calculate()
+
+
+print("Total marks of all students:", Tot)
+
+Tot.sort()
+
+print("Sorted marks:", Tot)
+
+print("Top scoring student marks:", Tot[-1])
