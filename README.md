@@ -992,8 +992,11 @@ Today I practiced building a small **Student Management System** using Python. I
 Improve my understanding of **Python OOP concepts and logical problem solving**, and continue building more real-life programs as part of my **100 Days of Python learning journey**.
 
 
-
-
+Day-20
+📌 Program Title
+Employee Details and Address using Inheritance
+🎯 Aim
+To create a Python program that stores and displays employee details and address using inheritance (parent and child classes).
 
 
 
