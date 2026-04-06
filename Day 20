@@ -1,0 +1,50 @@
+class Details:
+    def __init__(self, name, age, ID):
+        self.name = name
+        self.age = age
+        self.ID = ID
+
+
+class Address(Details):
+    def __init__(self, name, age, ID, doorno, streetno, place, district, state):
+        super().__init__(name, age, ID)
+        self.doorno = doorno
+        self.streetno = streetno
+        self.place = place
+        self.district = district
+        self.state = state
+
+    def display(self):
+        details = {
+            "Name": self.name,
+            "Age": self.age,
+            "ID": self.ID
+        }
+
+        address = {
+            "Door No": self.doorno,
+            "Street No": self.streetno,
+            "Place": self.place,
+            "District": self.district,
+            "State": self.state
+        }
+
+        print("Details of Employee:", details)
+        print("Address of Employee:", address)
+
+
+# Main program
+n = int(input("Enter number of employees: "))
+
+for i in range(n):
+    name = input("Enter name: ")
+    age = int(input("Enter age: "))
+    ID = int(input("Enter ID: "))
+    doorno = input("Enter door no: ")
+    streetno = input("Enter street no: ")
+    place = input("Enter place: ")
+    district = input("Enter district: ")
+    state = input("Enter state: ")
+
+    emp = Address(name, age, ID, doorno, streetno, place, district, state)
+    emp.display()
