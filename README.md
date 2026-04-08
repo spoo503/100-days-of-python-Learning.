@@ -999,7 +999,12 @@ Employee Details and Address using Inheritance
 To create a Python program that stores and displays employee details and address using inheritance (parent and child classes).
 
 
+📅 Day 21 – Python File Handling
 
+Today I learned how to work with files in Python.
+I practiced opening files, reading data, writing data, and appending new content using different file modes such as r, w, and a.
+
+I created simple programs to store and retrieve student names from a text file.
 
 
 
