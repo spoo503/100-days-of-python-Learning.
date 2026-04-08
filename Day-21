@@ -1,0 +1,103 @@
+1️⃣ Concept 1: What is File Handling?
+
+File handling allows a program to:
+
+store data permanently
+read saved data later
+update existing data
+
+Example uses:
+
+saving student records
+saving user login data
+saving logs or reports
+2️⃣ Concept 2: Opening a File
+
+Syntax:
+
+file = open("filename.txt", "mode")
+Modes
+Mode	Meaning
+r	read file
+w	write file (overwrites)
+a	append data
+x	create file
+
+Example:
+
+file = open("data.txt", "r")
+3️⃣ Concept 3: Writing to a File
+
+Example:
+
+file = open("data.txt", "w")
+
+file.write("Hello this is my first file handling program")
+
+file.close()
+
+Output → Creates a file data.txt
+
+4️⃣ Concept 4: Reading a File
+
+Example:
+
+file = open("data.txt", "r")
+
+content = file.read()
+
+print(content)
+
+file.close()
+5️⃣ Concept 5: Appending Data
+
+Append means adding new data without deleting old data.
+
+Example:
+
+file = open("data.txt", "a")
+
+file.write("\nThis line is added later")
+
+file.close()
+
+6️⃣ Practice Programs (Important)
+
+Do these 3 programs today.
+
+
+Program 1
+
+Write student name to a file.
+
+name = input("Enter student name: ")
+
+file = open("student.txt","w")
+file.write(name)
+file.close()
+
+print("Data saved successfully")
+Program 2
+
+Read file and display content.
+
+file = open("student.txt","r")
+
+data = file.read()
+
+print(data)
+
+file.close()
+
+
+Program 3
+
+Append multiple names.
+
+name = input("Enter name: ")
+
+file = open("student.txt","a")
+
+file.write("\n"+name)
+
+file.close()
