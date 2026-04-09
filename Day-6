@@ -3,15 +3,16 @@
 S1="Hello"
 S2="World"
 print(S1+S2) #concatenation.
-print("S1", +,"S2")  #concatenation if space is needed.
+print(S1,"+",S2)  #concatenation if space is needed.
 print(str.upper(S1)) # capitial letters
 print(str.upper(S2)) 
 print(str.lower(S1))  # small letters
 print(str.lower(S2))
-print(S1.len())  # length of the string 
+print(len(S1))  # length of the string 
 print(S1.strip()) # no space
-print(S1.replace("Hello","hello))) # replace S1 by hello.
+print(S1.replace("Hello","hello")) # replace S1 by hello.
 
+ 
 # Problem-2:
 Name="Srikar"
 # indexing=positon-1
