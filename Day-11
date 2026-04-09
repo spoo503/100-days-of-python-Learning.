@@ -1,27 +1,30 @@
 #problem 1:
 def progress_report():
-  MARKS=[]
-  total=0
-   Name=input("Enter the name of the student")
-   sub=int(input("Enter the total subjects"))
-   for i in range(sub):
-      marks=int(input("Enter the name fof the subject"))
-       MARKS.append(marks)
-       print(marks)
+    MARKS=[]
+    total=0
+    max_total=0
+    Name=input("Enter the name of the student")
+    sub=int(input("Enter the total subjects"))
+    for i in range(sub):
+        marks=int(input("Enter the marks"))
+        MARKS.append(marks)
+        print(marks)
         total+=marks
-        avg=total/marks
-       if(avg>=90):
-          print("EXCLLENT")
-       elif(avg>=80):
-           print("VERY GOOD")
-        elif(avg>=50):
-           print("GOOD")
-        else:
+        max_total+=40
+    avg=total/max_total*100
+    if(avg>=90):
+           print("EXCLLENT")
+    elif(avg>=80):
+            print("VERY GOOD")
+    elif(avg>=50):
+            print("GOOD")
+    else:
           print("YOU COULD DO BETTER")
+    print("NAME OF THE STUDENT",Name)
+    print("Total marks",total)
+    print("AVERAGE",avg)
 progress_report()
-print("NAME OF THE STUDENT",Name)
-print("Total marks",total)
-print("AVERAGE",avg)
+
 
 
 #PROBLEM 2:
