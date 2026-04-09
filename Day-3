@@ -19,7 +19,7 @@ print(mobile_number)
 print(visit_house)
 print(salary)
 
-$problem 2
+#problem 2
 a =90 # int
 b= 9.2 #float
 print(a+ int(b)) #converting float into int.
