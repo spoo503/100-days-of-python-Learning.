@@ -1,4 +1,4 @@
-#Student  marks Analysis.
+##Student  marks Analysis.
 name=input("Enter the name of student\n")
 Roll_number=int(input("Enter the rollnumber of student\n"))
 marks1=int(input("Enter the marks scored in 1st subject")) 
