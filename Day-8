@@ -15,7 +15,8 @@ print(item)
 # unpacking
 student=("Spoorthi",19,"MBBS")
 name,age,course="Spoorthi",19,"MBBS"
-print("My Name is"+name+ "I am studying in "+course + "and my age is" +age)
+print("My Name is"+ name + "I am studying in "+ course + "and my age is" +str(age))
+My Name isSpoorthiI am studying in MBBSand my age is19
 
 
 
