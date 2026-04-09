@@ -24,20 +24,25 @@ print(student_1)
 
 ##problem 2.
 print("WELCOME TO THE COLLEGE CLUB REGISTRATION")
-n= int(input("ENter the number of students participating int he event."))
-coding_count=0
-for i in range(n):
-   Name=input("Enter the student name")
-   club_no =int(input("Enter the number of clubs you want to joinin the event"))
-   print(club_no)
-   club_name=input("Enter the club names you want to join ").split()
-   Zone = {"NAME" :Name, "CLUB" :club_name}
-   print(Zone)
-   if club_no >=2:
-      print("You are elgible to clube badge")
-                                           # if club_name=="Coding" : # this wiil never be be true so 
-    if "Coding" in cub_name:
-      coding_count+=1
-print("Total number of students particiating int he event is",n)
-print("TOtal number of people joined coding clubs are ",coding_count)
 
+n = int(input("Enter the number of students participating in the event: "))
+
+coding_count = 0
+
+for i in range(n):
+    Name = input("Enter the student name: ")
+    club_no = int(input("Enter the number of clubs you want to join in the event: "))
+
+    club_name = input("Enter the club names you want to join: ").split()
+
+    Zone = {"NAME": Name, "CLUB": club_name}
+    print(Zone)
+
+    if club_no >= 2:
+        print("You are eligible for club badge")
+
+    if "Coding" in club_name:
+        coding_count += 1
+
+print("Total number of students participating in the event is", n)
+print("Total number of people who joined Coding club are", coding_count)
