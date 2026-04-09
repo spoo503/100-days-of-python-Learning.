@@ -1,13 +1,13 @@
 1.positonal arguments.
-  def sum(a,b):
-      total=a+b
-       print(total)
-return total
-
+ def sum(a,b):
+     total=a+b
+     print(total)
+     return total
+sum(5,3)
 2.Default Argument
  def Marriage(boy,girl="Girl"):
-   print(f"{boy} marries {Girl})
-Marriage(pitter)
+   print(f"{boy} marries {girl}")
+Marriage("Ram")
 output: pitter marries Girl. 
 
 **2. Keyword Arguments**
