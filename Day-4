@@ -30,16 +30,17 @@ for i in range(3):
 pin=int(input("Enter the pin"))
 if(pin==1234):
        print(" Correct pint")
+       break
      if(option="Balance"):
         print("Total amount is",Balance)
      elif(option="withdraw"):
           print("Amount left is",  abs(Balance - amount))
      elif(option="Debit"):
-  print("Amount added to account is",amount+Balance)
-break
+         print("Amount added to account is",amount+Balance)
+         break
 else:
-print("Incorrect pin")
-  print("Incorrect password try again ")
+   print("Incorrect pin")
+print("Incorrect password try again ")
 print("Welcome to"Bank")
 print(Name)
 print(Bank)
