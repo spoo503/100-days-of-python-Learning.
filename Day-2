@@ -1,15 +1,15 @@
 #problem 1.
 name=input("Enter the name of the passenger")
 Age=int(input("Enter the age of passenger"))
-bus point=input("Enter the boarding point")
+bus_point=input("Enter the boarding point")
 Amount=int(input("Enter the amount"))
-AC bus=Amount*200
-Non Ac= Amount*10
+AC_bus=Amount+200
+Non_Ac= Amount+100
 print("Passenger Name",name)
 print("Age of passenger",Age)
 print("Total Bus charges is",Amount)
-print("AC bus charge is",AC bus)
-print("NOn Ac bus charge is",Non Ac)
+print("AC bus charge is",AC_bus)
+print("NOn Ac bus charge is",Non_Ac)
 
 #problem 2.
 total_classes = int(input("Enter total classes: "))
@@ -21,13 +21,16 @@ print("Attendance %:", percentage)
 
 Problem based on data type:
 a=10
-b=3
-c="Hello"
-d="e"
-print(a+b) # int
-print(a/b) #float
-print(c) #string
-print(d) # char
+b=1.2
+c=True
+d="a"
+e="Hello"                                      l
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
 
 
 
