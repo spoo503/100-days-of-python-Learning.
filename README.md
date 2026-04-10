@@ -43,7 +43,7 @@ solved 1 problem in hackerrank.
 
 
 
-###🎯 Goal:
+### Goal:
 
 
 #completing 100 days code challege consistently.
