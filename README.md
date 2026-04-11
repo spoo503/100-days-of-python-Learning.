@@ -23,10 +23,10 @@
 prints statements- print statements are those statements that are used to display the output.
 
 
-Variables- variables are used to  store data in memory location .
+1.Variables- variables are used to  store data in memory location .
 
 
-variables contain letters(a-z)or(A-Z) ,numbers(0-9) and undescores(_).
+.variables contain letters(a-z)or(A-Z) ,numbers(0-9) and undescores(_).
 
 
 Identifiers are case sensitive(a is not equal to A).
@@ -170,7 +170,7 @@ Solved question from GeeksforGeeks and hackerrank.
 
 
 
-## Type conversion:
+### Type conversion:
 
 
 converting one data type into another data type is called type conversion.
