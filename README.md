@@ -455,7 +455,7 @@ Understanding how tuple unpacking works
 Every small concept I learn today is building the foundation for stronger programming skills tomorrow.
 
 
-My goal is to keep learning Python consistently every day and gradually move towards solving more complex programming problems.
+###My goal is to keep learning Python consistently every day and gradually move towards solving more complex programming problems.
 
 
 ###Day-9 of python learning.
@@ -1074,7 +1074,7 @@ I created simple programs to store and retrieve student names from a text file.
 
 
 
-
+#####
 
 
 
