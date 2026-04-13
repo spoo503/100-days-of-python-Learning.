@@ -1022,7 +1022,7 @@ It includes implementation and understanding of constructors, getters, setters, 
 ✅ Setter Methods
 ✅ Encapsulation
 ✅ Basic OOP Design Practices
-
+yeah i have practicecd 20 questions today ill be posting the questionsand answers tomorrow
 
 
 
