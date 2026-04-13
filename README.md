@@ -1011,7 +1011,17 @@ I created simple programs to store and retrieve student names from a text file.
 
 
 
-
+🚀 OOP Practice in Python
+This repository contains my practice programs focused on Object-Oriented Programming (OOP) concepts in Python.
+It includes implementation and understanding of constructors, getters, setters, and basic class design.
+📌 Topics Covered
+✅ Classes and Objects
+✅ Constructors (__init__ method)
+✅ Instance Variables
+✅ Getter Methods
+✅ Setter Methods
+✅ Encapsulation
+✅ Basic OOP Design Practices
 
 
 
