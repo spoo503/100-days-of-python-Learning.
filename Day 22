@@ -1,0 +1,13 @@
+FILE HANDLING:
+it allows to read and write the files.
+we need it becz to store permenantely and save them.
+types of file handling:
+1.r-reading an existing file.
+2.w=writing a new content.
+3.a=append or adding a data.
+4.x=create a new file.
+4.b=binary mode.
+5.t=text mode .for text files
+open and with is a function in file handling.
+file=open("notes.txt","r")
+file.close()
