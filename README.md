@@ -1010,7 +1010,7 @@ I created simple programs to store and retrieve student names from a text file.
 
 
 
-
+DAY_22
 🚀 OOP Practice in Python
 This repository contains my practice programs focused on Object-Oriented Programming (OOP) concepts in Python.
 It includes implementation and understanding of constructors, getters, setters, and basic class design.
@@ -1026,8 +1026,72 @@ yeah i have practicecd 20 questions today ill be posting the questionsand answer
 
 
 
-
-
+DAY23
+Topics covered:
+SOLID PRINCIPALS IN PYTHON.
+1.Singe responsibillity priniciple
+A class should have a single responsibility.
+class library:
+def __init__(self,name):
+self.name=name
+def __init__(self,account,balance):
+self.account=account
+self.balance=balance.\
+2.OPEN-CLOSED PRINCIPLE:
+class should be closed modifcation.like we should not modify everytime.
+class Library:
+def get_discount(self):
+ return 0
+class Dayanand_sagar_students(Library):
+  def get_discount(self):
+  return 10
+class IIT_students(Library):
+  def get_discount(self):
+  return 20
+  3.LISKOV SUBSTITUTION PRINCIPLE:
+  A subclass should be to replace their parent class without breaking the program.
+  class Vehicle:
+     def __init__(self):
+        pass
+  class Bike(vehicle):
+     def accerlate(self):
+         print("80 km per hour")
+  class Scooty(vehicle):
+      def accelerate(self):
+         print("100 km per hour")
+4.INTERFACE SEGREGATION PRINCIPLE:
+we donot force a class to implement methods it does not use.
+class FOOD:
+   def food delivery(self):
+        pass
+ class MESS(FOOD):
+  def eat(self):
+    print("Mess food is better than a hotel")
+class Hotel(FOOD):
+ def eat(self):
+   print("Daily consumption can affect the health")
+class Swiggy(Hotel):
+  def eat(self):
+  print("A platform where we can order food")
+5.DEPENDENCY INVERSION PRINCIPLE:
+high level module should not depend low level module rather they should depend in abstracton.
+class Mobile:
+ def app(self):
+   pass
+class settings:
+ def app(self):
+ return "reqiured"
+class insta:
+  def app(self):
+  retrun "want but not needed"
+class APPS:
+ def __init__(self,settings):
+  self.settings=settings
+def__init__(self,insta):
+ return self.insta
+ 
+  
+ 
 
 
 
