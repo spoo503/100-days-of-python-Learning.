@@ -1027,8 +1027,8 @@ yeah i have practicecd 20 questions today ill be posting the questionsand answer
 
 
 DAY23
-Topics covered:
-SOLID PRINCIPALS IN PYTHON.
+###Topics covered:
+##SOLID PRINCIPALS IN PYTHON.
 1.Singe responsibillity priniciple
 A class should have a single responsibility.
 class library:
@@ -1036,8 +1036,10 @@ def __init__(self,name):
 self.name=name
 def __init__(self,account,balance):
 self.account=account
-self.balance=balance.\
-2.OPEN-CLOSED PRINCIPLE:
+self.balance=balance.
+
+
+###2.OPEN-CLOSED PRINCIPLE:
 class should be closed modifcation.like we should not modify everytime.
 class Library:
 def get_discount(self):
@@ -1059,7 +1061,9 @@ class IIT_students(Library):
   class Scooty(vehicle):
       def accelerate(self):
          print("100 km per hour")
-4.INTERFACE SEGREGATION PRINCIPLE:
+
+         
+###4.INTERFACE SEGREGATION PRINCIPLE:
 we donot force a class to implement methods it does not use.
 class FOOD:
    def food delivery(self):
@@ -1073,7 +1077,9 @@ class Hotel(FOOD):
 class Swiggy(Hotel):
   def eat(self):
   print("A platform where we can order food")
-5.DEPENDENCY INVERSION PRINCIPLE:
+
+  
+###5.DEPENDENCY INVERSION PRINCIPLE:
 high level module should not depend low level module rather they should depend in abstracton.
 class Mobile:
  def app(self):
@@ -1089,6 +1095,85 @@ class APPS:
   self.settings=settings
 def__init__(self,insta):
  return self.insta
+
+
+ Day 23 
+ Topisc covered:
+ 1.Errors and exceptions.
+ 2.Exception Handling.
+
+
+what I learned:
+1.errors:
+error is something in which wrong code,missing files is called as erorrs.
+Types of Errors:
+1.Syntax errors.
+missing brackects,colons:
+2.Exceptions:
+errors that happen during execution like,we cannot divide a number by zero so,this a exception.
+
+Exception Handilng:
+Exception handling is the way to protect from crashing when an error occurs.
+we have types to solve exception handling:
+1.try
+ syntax for try:
+2.except
+ syntax for except someerror:
+3.else
+ syntax for else:
+4.finally
+ syntax for finally:
+ a=int(input("a:"))    # value error
+ b=int(input("b:"))
+ print(a/b)
+
+  a=int(input())    
+ b=int(input())
+ print(a/b)
+ try:
+ print(a/b)
+ except Exception as e:# this tells the what type of error
+ print("Error",e) 
+ else:
+   print("No error")
+ finally:
+  print("PRogram end")
+  outpu gives if it is corect also try and finaly is also displayed.
+
+
+  try:
+  #if no error what u want to print
+  except:
+  #if error what u will do
+  else:
+  # if noerror what shuold print.
+  finally:
+  #whatever it is everytime thuis is displayed.
+  try:
+  num=(a/b)
+  print(a/b)
+  except ZerodivisionError:
+  print("We cannot divide by zero")
+  except valueError:
+  print("enter a valid number")
+  except Exception as e
+  print("Error",e)
+  finally:
+  print("Program ended")
+we raise to create a exception.
+a=int(input("Enter the value"))
+b=int(input("ENter the value"))
+try:
+num=a/b
+if(b=0):
+raise Exception("Zero cannot be divisded")
+except Exception as e:
+ print("Error",e)
+finally:
+ print("Program ended")
+ 
+ 
+    
  
   
  
