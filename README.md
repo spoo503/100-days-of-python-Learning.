@@ -9,7 +9,7 @@
 ####📚 Topics covered:
 
 
-1. print-statemnts
+#1. print-statemnts
 
 2.variables.
 
