@@ -166,7 +166,7 @@ Solved question from GeeksforGeeks and hackerrank.
    
 
 
-## 🧠 Learning:
+#### 🧠 Learning:
 
 
 
@@ -216,7 +216,7 @@ converting one data type into another data type is called type conversion.
 
 
 
-## 💻 Practice:
+### 💻 Practice:
 
 
 - Practiced input/output programs  
