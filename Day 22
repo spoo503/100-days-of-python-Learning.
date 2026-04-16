@@ -1,6 +1,6 @@
-FILE HANDLING:
-it allows to read and write the files.
-we need it becz to store permenantely and save them.
+##FILE HANDLING:
+1.it allows to read and write the files.
+2.we need it becz to store permenantely and save them.
 types of file handling:
 1.r-reading an existing file.
 2.w=writing a new content.
