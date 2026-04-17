@@ -9,7 +9,7 @@
 ####📚 Topics covered:
 
 
-#1. print-statemnts
+1. print-statemnts
 
 2.variables.
 
@@ -20,7 +20,7 @@
 
 
 
-prints statements- print statements are those statements that are used to display the output.
+##$prints statements- print statements are those statements that are used to display the output.
 
 
 1.Variables- variables are used to  store data in memory location .
