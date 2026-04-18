@@ -57,7 +57,7 @@ solved 1 problem in hackerrank.
 
 
 
-###📚Topics covered:
+#$###📚Topics covered:
 
 
 1.Data Types
