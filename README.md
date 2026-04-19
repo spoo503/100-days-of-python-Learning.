@@ -1,38 +1,45 @@
-#### 100-days-of-python-Learning🚀
+ ####100-days-of-python-Learning🚀
+
+ 
+
+##Day-1 of python learning.
 
 
-
-###Day-1 of python learning.
-
-
-
-####📚 Topics covered:
+##Topics covered:
 
 
 1. print-statemnts
 
-2.variables.
 
+ 2.variables.
 
-
-
+ 
 ###🧠Learning.
 
 
 
-##$prints statements- print statements are those statements that are used to display the output.
+1.prints statements- print statements are those statements that are used to display the output.
+
 
 
 1.Variables- variables are used to  store data in memory location .
 
 
+
 .variables contain letters(a-z)or(A-Z) ,numbers(0-9) and undescores(_).
+
+
+
+.Variables should always start from undescores or letters.
+
 
 
 Identifiers are case sensitive(a is not equal to A).
 
 
+
 Extension of python is .py
+
 
 
 
@@ -49,15 +56,10 @@ solved 1 problem in hackerrank.
 #completing 100 days code challege consistently.
 
 
-
-
-
-
 ###Day-2 of python Learning.
 
 
-
-#$###📚Topics covered:
+##📚Topics covered:
 
 
 1.Data Types
@@ -76,19 +78,19 @@ solved 1 problem in hackerrank.
 Data types:
 
 
-int= often called integers.
+1.int= often called integers.
 
 
-float= decimal form. 
+2.float= decimal form. 
 
 
-Boolean=which gives output as True or False.
+3.Boolean=which gives output as True or False.
 
 
-char =single characters like a,b,x.
+4.char =single characters like a,b,x.
 
 
-String =group of characters.
+4.String =group of characters.
 
 
 
@@ -105,10 +107,10 @@ String =group of characters.
 3.relational operators(,>,<,>=,<=,==,!=).
 
 
-4.Logical operators=and, or, not.
+4.Logical operators= and, or, not.
 
 
-5.membership operators(in, not in).
+5.membership operators= (in, not in).
 
 
 #a+b=c .here a and b are operands , + is the operator and overall becomes operation.
@@ -206,13 +208,13 @@ converting one data type into another data type is called type conversion.
 ## Conditional Statements:
 
 
-- if → checks condition
+1.if = checks condition
 
 
-- elif → checks multiple conditions  
+elif = checks multiple conditions  
 
 
-- else → runs when all conditions are false  
+else = runs when all conditions are false  
 
 
 
@@ -237,28 +239,42 @@ converting one data type into another data type is called type conversion.
 
 
 ##📚 Topics Covered:
-Conditional Statements (if, elif, else)
-Nested if Statements
-for Loop
+
+
+1.Conditional Statements (if, elif, else)
+
+
+2.Nested if Statements
+
+
+3.for Loop
 
 ##🧠 Learning:
 
-*🔹 Conditional Statements:
-Used to make decisions in a program. The code runs based on conditions (True/False).
-*🔹 Nested if:
+1. Conditional Statements:
+*Used to make decisions in a program. The code runs based on conditions (True/False).
+
+
+2.Nested if:
 An if statement inside another if.
 Used when checking multiple conditions step by step.
-*🔹 for Loop:
+
+
+3. for Loop:
 Used to repeat a block of code multiple times.
 Helps in handling tasks like input, counting, and iteration.
 
 ##💻 Practice:
-Solved problems based on:
-Student attendance eligibility
-ATM withdrawal logic
-Discount calculation
+
+
+1.Solved problems based on:
+2.Student attendance eligibility
+3.ATM withdrawal logic
+4.Discount calculation
 
 ##🎯 Goal:
+
+
 To understand decision-making and looping clearly and apply them in real-life problems.
 
 
@@ -266,12 +282,15 @@ To understand decision-making and looping clearly and apply them in real-life pr
 
 ###💻 Day-5 of Python Learning
 
+
+
 ###Today I tried solving a math problem using Python — finding the roots of a quadratic equation.
 
-##📚 What I worked on:
-While loop
-If-else and nested conditions
-Using formulas in code
+##📚 What I tried applying on:
+
+1.While loop
+2.If-else and nested conditions
+3.Using formulas in code
 
 ##💡 What I built:
 A simple program that takes values and tells whether the roots are real, equal, or imaginary, and calculates them.
@@ -279,22 +298,27 @@ A simple program that takes values and tells whether the roots are real, equal, 
 ##🧠 What I learned:
 I understood how to convert a mathematical formula into code and how loops can be used to repeat the process easily.
 
+#Goal:
+
 
 Still learning step by step and improving every day 🚀
-#100DaysOfCode #Python #LearningJourney
-
 
 
 ###Day 6 – Python Learning Plan
 
 ##📚 Topics Covered
+
+
 1.Strings
 2.String methods.
 3.Indexing
 
 
 🧠 What I Have Learned
-string- a group of characters or letters is known as string.
+
+
+*string- a group of characters or letters is known as string.
+
 ## string methods:
 1. str.upper()- converts all characters into capital letters
 2. str.lower()- convert all characters into small letters.
@@ -303,6 +327,8 @@ string- a group of characters or letters is known as string.
 5. str.len()- tells about the length of string or tells about how many character are present.
    
 ##Practice.
+
+
 solved problems basedon string methods from codechef and from GeeksforGeeks.
 
    
@@ -313,49 +339,63 @@ Consistency is the key.
 ###Day 7 – Python Learning
 
 📚 Topics Covered
-Lists
-Features of Lists
-List Methods
-Basic List Operations
+
+
+1.Lists
+2.Features of Lists
+3.List Methods
+4.Basic List Operations
 
 
 ##🧠 What I Learned:
-A list can store different types of data like numbers, strings, or even mixed values.
-Lists are mutable, which means we can change their elements after creating them.
-Lists are ordered, so every element has its own index position.
-Lists are written using square brackets [].
-We can also create an empty list using:
-L = []or L = list()
+
+1.LISTS:
+
+
+*A list can store different types of data like numbers, strings, or even mixed values.
+*Lists are mutable, which means we can change their elements after creating them.
+*Lists are ordered, so every element has its own index position.
+*Lists are written using square brackets [].
+*We can also create an empty list using:
+*L = []or L = list()
 
 
 ## List Methods I Learned
-append() → Adds an element at the end of the list
-remove() → Removes a specific element from the list
-pop() → Removes an element from a specific index (default is the last element)
-insert() → Inserts an element at a specific position
-sort() → Sorts the elements in ascending order
+
+1.append() → Adds an element at the end of the list
+2.remove() → Removes a specific element from the list
+3.pop() → Removes an element from a specific index (default is the last element)
+4.insert() → Inserts an element at a specific position
+5.sort() → Sorts the elements in ascending order
+
 
 ## List Operations
 
 These built-in functions help us perform operations on lists:
 
-1.len() → Finds the number of elements in a list
-2.max() → Returns the maximum value in the list
-3.min() → Returns the minimum value in the list
+1.len() → Finds the number of elements in a list.
+2.max() → Returns the maximum value in the list.
+3.min() → Returns the minimum value in the list.
 4.sum() → Adds all elements in the list
 
 💻 Practice:
-Creating lists
-Accessing list elements using indexing
-Updating values inside a list
 
 
-🎯 Goal
+1.Creating lists
+2.Accessing list elements using indexing
+3.Updating values inside a list
+
+
+🎯 Goal:
+
+
 Today it's hard.
 Tomorrow it may feel even more difficult.
 But one day all this effort will become something beautiful.
 
 Learning step by step every day 🚀
+
+
 
 ### Day-8 of python learning.
 
@@ -431,19 +471,19 @@ Built-in Functions with Tuples
 ##💻 Practice
 
 
-Creating tuples with numbers and strings
+1.Creating tuples with numbers and strings
 
 
-Accessing elements using indexing
+2.Accessing elements using indexing
 
 
-Using built-in functions like sum(), max(), and min()
+3.Using built-in functions like sum(), max(), and min()
 
 
-Using tuple methods like count()
+4.Using tuple methods like count()
 
 
-Understanding how tuple unpacking works
+5.Understanding how tuple unpacking works
 
 
 
@@ -454,14 +494,16 @@ Understanding how tuple unpacking works
 
 Every small concept I learn today is building the foundation for stronger programming skills tomorrow.
 
-
-###My goal is to keep learning Python consistently every day and gradually move towards solving more complex programming problems.
+##Goal:
+My goal is to keep learning Python consistently every day and gradually move towards solving more complex programming problems.
 
 
 ###Day-9 of python learning.
 
 
 📚 Topics Covered:
+
+
 1.Sets
 
 2.Set operations.
@@ -470,7 +512,11 @@ Every small concept I learn today is building the foundation for stronger progra
 
 1.Set stores only unique elements,if we add duplicat elements it automaticllly removes from the set.
 
+
+
 2.Sets are unorederd which means they don't have a fixed order
+
+
 
 3. Sets are unindexed which means we cannot acess the elemnts using positions.
    
@@ -493,13 +539,13 @@ Every small concept I learn today is building the foundation for stronger progra
 2.set.remove()- used to remove specific element .
 
 
-3.set.discard()-used to remove elements but does not give error if it is not present.
+3.set.discard() - used to remove elements but does not give error if it is not present.
 
 
-4.set.pop- used to remove random element.
+4.set.pop() - used to remove random element.
 
 
-5.set.clear- removes all elements from the set.
+5.set.clear() - removes all elements from the set.
 
 
 
@@ -507,7 +553,7 @@ Every small concept I learn today is building the foundation for stronger progra
 
 
 
-7.intesection(&)- used to get common elements from the two  sets.
+7.intersection(&)- used to get common elements from the two  sets.
 
 
 
@@ -532,15 +578,19 @@ Learning something new every day, even if it is small, will help me become bette
 
 ##Day-10 of python learning.
 
+
+
 📚 Topics Covered:
+
+
 1. Dictionary
 2. Functions of dictonaries.
 
 ## What I have learnt:
 1.Dictionaries are represented by flower brackets{}.
 2.Dictionary are the one which stores the value in the form of key-value pairs.
-3.they are mutable
-3.key- immutable whereas value -mutable.
+3.Dictionaries are mutable
+3.keys- immutable whereas values -mutable.
 4.they are unordered and unindexed which means they donot have fixed positions to access the elements from the dictionaries.
 5.In dictionaries we can access elements using keys.
 
@@ -554,17 +604,18 @@ Learning something new every day, even if it is small, will help me become bette
 7.popitem()- removes last inserted key-value pair.
 
 ##Practice
-i have solved some question from GeeksfromGreeks.
+I have solved some question from GeeksfromGreeks.
 
 ## Goals.
-consistency and patience is more important.'
+consistency and patience is more important.
 
 
 
 ##Day 11 of Python Learning
 
 
-📚 Topics Covered
+📚 Topics Covered:
+
 1.What is a Function
 
 
@@ -615,26 +666,27 @@ def function_name():
 
 
 
-After defining a function, we must call it to execute the code inside it.
+After defining a function, we must call it to execute the code inside it.we must call function
+outside the def .
 
 
-📚 4. Parameters and Arguments
+ 4. Parameters and Arguments
 
 
 
 Functions can take inputs to work with different values.
 
-Parameters
+1.Parameters
 
 Variables written inside the function definition.
 
 
-Arguments
+2.Arguments
 
 Values passed while calling the function.
 
 
-📚 5. Return Statement
+ 5. Return Statement
 
 
 
@@ -647,10 +699,10 @@ The return statement sends the result back from the function.
 
 
 
-print()               	return
-Displays output   	   Sends value back
-Cannot reuse result	   Result can be stored
-Used for showing output	 Used in calculations
+print()                 	return
+Displays output   	     Sends value back
+Cannot reuse result	     Result can be stored
+Used for showing output	  Used in calculations
 
 
 
@@ -668,6 +720,7 @@ My goal is to become more comfortable with writing functions and using them to s
 
 
 🚀 Day 12 – Python Learning Journey
+
 
 📚 Topics Covered
 
@@ -690,25 +743,25 @@ Types of Functions in Python
 1.Positional Arguments:
 it is a argument in which we konw the position of the parameters.
 
-2. Default Arguments
+2. Default Arguments:
 Default arguments allow a parameter to have a predefined value if no value is given during the function call.
 
-3. Keyword Arguments
+3. Keyword Arguments:
 Keyword arguments allow values to be passed using parameter .
 
-4. Variable-Length Arguments (*args)
+4. Variable-Length Arguments (*args):
 
 Variable-length arguments allow a function to accept multiple inputs without fixing the number of parameters.
 1.*args-which allows to accept mulitiple  inputs .
 2.**kwrags- which allows to acess the key-values inputs.
 
-6. Scope of Variables (Local and Global)
+6. Scope of Variables (Local and Global):
 Variable scope defines where a variable can be accessed.
 1. Local variables exist inside functions.
-2.  global variables can be accessed throughout the program.
+2. global variables can be accessed throughout the program.
 
 🧪 Practice 
-tried solving the functions problems using all topics individually and combination of all.
+Tried solving the functions problems using all topics individually and combination of all.
 
 
 🎯 Goals for Next Day
@@ -723,21 +776,25 @@ Start learning about Python modules and built-in functions
 Day 13 Plan – Python Learning Journey
 
 
-📚 Topics to Cover
-What are Modules in Python
-Importing Modules (import)
-Using Built-in Modules (math, random)
-Creating Your Own Module
-Built-in Functions (len(), type(), range(), sum())
+📚 Topics to Cover:
+
+1.What are Modules in Python
+2.Importing Modules (import)
+3.Using Built-in Modules (math, random)
+4.Creating Your Own Module
+5.Built-in Functions (len(), type(), range(), sum())
 
 
 
-📖 What You Should Learn
+📖 What You Should Learn:
+
 Understand how modules help organize Python code into reusable files.
 Learn how to import modules to use functions written in other files.
 Explore some built-in modules like math and random.
 Understand how to create and use your own module.
 Practice using common built-in Python functions.
+
+
 🧪 Practice Tasks
 
 1️⃣ Write a program using the math module to calculate square root and power.
@@ -752,7 +809,10 @@ len()
 sum()
 max()
 type()
-🎯 Goal for Day 13
+
+
+🎯 Goal for Day 13:
+
 Understand how Python programs can be split into multiple files using modules.
 Practice using built-in modules and functions.
 Improve code organization and reusability.
@@ -794,44 +854,29 @@ A **class** can be thought of as a blueprint or template. For example, if we wan
 
 📅 Day 15 / 100 – Python Learning
 
-📌 Topic Covered
-Object Oriented Programming (OOP) Basics
-Constructors in Python (__init__)
-Instance Variables
-Creating Objects from Classes
-Simple Class Methods
+📌 Topic Covered:
+
+1.Object Oriented Programming (OOP) Basics.
+2.Constructors in Python (__init__).
+3.Instance Variables.
+4.Creating Objects from Classes.
+5.Simple Class Methods.
 
 
-📚 What I Learnt
-A class is like a blueprint used to create objects.
-An object is an instance of a class that contains data and behavior.
-The __init__ constructor runs automatically when an object is created and is used to initialize values.
-The self keyword refers to the current object and is used to access instance variables.
-Instance variables store data that belongs to a specific object.
-Multiple objects can be created from the same class, each having its own values.
+📚 What I Learnt:
+1.A class is like a blueprint used to create objects.
+2.An object is an instance of a class that contains data and behavior.
+3.The __init__ constructor runs automatically when an object is created and is used to initialize values.
+4.The self keyword refers to the current object and is used to access instance variables.
+5.Instance variables store data that belongs to a specific object.
+6.Multiple objects can be created from the same class, each having its own values.
 
 
-💻 Practice
+💻 Practice:
 
-Today I practiced writing simple OOP programs such as:
-
-1️⃣ Student Class Program
-
-Stored student name and marks.
-
-2️⃣ Rectangle Class
-
-Calculated the area using a method.
-
-3️⃣ Employee Class
-
-Stored employee name and salary.
-
-4️⃣ Created multiple objects to understand how each object holds different data.
-
+Today I practiced writing simple OOP programs .
 
 🎯 Goals
-Get comfortable writing classes and creating objects.
 Practice more problems using constructors and instance variables.
 Improve understanding of how OOP helps organize programs better.
 Next step: learn instance methods, class methods, and static methods in Python.
@@ -839,31 +884,82 @@ Next step: learn instance methods, class methods, and static methods in Python.
 
 📅 Day 16 – Python Learning Journey
 
-📚 Topics Covered
-Encapsulation in Python
-Access Modifiers – Public, Protected, Private
-Data Hiding using Private Variables
-Abstraction in Python
-Using methods to control access to data
+📚 Topics Covered:
 
 
-📖 What I Learnt
-Encapsulation means wrapping data and methods together inside a class to protect the data from direct access.
-Learned about public, protected, and private variables and how they control access to class data.
-Understood how private variables (__variable) help hide sensitive data inside a class.
-Abstraction means hiding complex implementation details and only showing necessary features to the user.
-Realized that encapsulation and abstraction make programs more secure, organized, and easier to maintain.
+PILLARS OF OOPS:
 
 
-
-🧪 Practice
-Created a BankAccount class where the balance is stored as a private variable.
-Used methods like deposit() and withdraw() to update the balance safely.
-Built a simple program to demonstrate data hiding using private variables.
-Practiced using methods to access and modify private data.
+1.Abstraction.
+2.Encapsulation.
+3.Inheritance.
+4.Ploymorphism.
 
 
-🎯 Goals
+📖 What I Learnt:
+1.Abstraction:
+It hides the complex inner working of an object.or we can say that it only display the important info and hides the
+the process part.C
+
+Class car:
+    def start(self):
+       print("Engine started")
+    def accelerate(self):
+      print("Car is accelerating")
+    def stop(self):
+       print("Ca stops")
+  car=car()
+  car.start()
+  carrrr.stop()
+2.Encaplsulation:
+it involves wrapping up data and methods that operates on that data within one unit,such asclass.
+this protects the data from external interferance and misuse,improving security and maintainance.
+
+class student:
+   def __init__(self,name,age):
+      self.name=name
+      self.age=age
+class ATM:
+  def __init__(self,balance):
+    self.balance=balance.
+
+  def check_balance(self):
+     print(self.__balance)
+  sbi=ATM(1000)
+  print(sbi.__balance)
+   
+
+Inheritance:
+class Family:
+  def__init__(self,surname):
+     self.surname=surname
+  class Child(Family):
+      def__init(self,surname,name):
+         super().__init__(surname)
+         self.name=name
+  child=child("GOWDA","NIKHIL")
+  print(child)
+  #output will be NIKHIL GOWDA.
+
+  4.Polymorphism:
+  It allows the object to diifer classes to be treated as object of a common super class.
+class Animal:
+  print("ANimal is making sound")
+class DOg(Animal):
+     def make_sound(self):
+        print("BARK")
+class Cat(Animal):
+  def make_sound(self):
+    print("MEOW!")
+animal=(DOg(),Cat())
+print(animal)
+
+
+🧪 Practice:
+Practiced some questions.
+
+
+🎯 Goals:
 Understand how encapsulation protects data in programs.
 Practice writing programs that use private variables and methods.
 Learn how abstraction simplifies complex programs.
@@ -912,7 +1008,7 @@ class Dog(Animal):
 
 a = Dog()
 a.sound()
-3️⃣ Method Overloading (Basic idea in Python)
+3️ Method Overloading (Basic idea in Python)
 
 Python handles this using default arguments.
 
@@ -926,20 +1022,7 @@ obj = Add()
 
 obj.sum(2,3)
 obj.sum(2,3,4)
-💻 Practice Questions
-Question 1
 
-Create a Vehicle class with a method start().
-Create a Car class that inherits from Vehicle and adds a method drive().
-
-Question 2
-
-Create a Shape class with a method area().
-Create Circle and Rectangle classes that override the area() method.
-
-Question 3
-
-Create a Person class and a Student class that inherits from Person and displays student details.
 
 🧠 What You Will Learn
 How child classes reuse parent code
@@ -953,7 +1036,7 @@ How polymorphism changes behavior
 ✔ Write 3 small OOP programs
 
 
-Day 18
+##Day 18
 Today I completed around 20-question coding marathon to test and improve my Python problem-solving skills. I basically created three files in which one is logic bases question,easy_question and medium question.
 This helped me practice different concepts like loops, conditions, and logic building. but  I had problem in taking range in medium questions
 Feeling more confident with coding consistency. 🚀
@@ -961,15 +1044,15 @@ Feeling more confident with coding consistency. 🚀
 
 
 
-Day 20 – Hard Practice Questions
+Day 19 – Hard Practice Questions
 
 
 1️⃣ Today (Day 20), I practiced several challenging problems using the concepts I learned from Day 1 to Day 19. These exercises helped me strengthen my understanding of loops, conditions, lists, and string operations. Solving these problems improved my logical thinking and problem-solving skills in Python.
 
 
-### 📅 Day 19 Practice – Smart Student Management System
+### 📅 Day 20 Practice – Smart Student Management System
 
-**Topics Covered**
+Topics Covered
 
 * Classes and Objects
 * Inheritance in Python
@@ -977,10 +1060,10 @@ Day 20 – Hard Practice Questions
 * Loops and Conditional Statements
 * Dictionaries for storing student details
 
-**What I Learned**
+What I Learned:
 Today I practiced building a small **Student Management System** using Python. I used **inheritance (Person → Child)** to manage student information like name, age, student ID, and marks. I also learned how to calculate **total marks using `sum()`** and compute the **percentage based on the number of subjects**. Additionally, I stored and sorted student totals in a list to identify the **top-scoring student**.
 
-**Practice Done**
+Practice Done
 
 * Took input for multiple students and their subject marks
 * Calculated total marks and percentage
@@ -988,11 +1071,12 @@ Today I practiced building a small **Student Management System** using Python. I
 * Stored student details in a dictionary
 * Sorted totals to find the highest score
 
-**Goal**
+Goal:
 Improve my understanding of **Python OOP concepts and logical problem solving**, and continue building more real-life programs as part of my **100 Days of Python learning journey**.
 
 
-Day-20
+Day-20:
+
 📌 Program Title
 Employee Details and Address using Inheritance
 🎯 Aim
@@ -1097,7 +1181,8 @@ def__init__(self,insta):
  return self.insta
 
 
- Day 23 
+### Day 24
+
  Topisc covered:
  1.Errors and exceptions.
  2.Exception Handling.
@@ -1172,7 +1257,21 @@ except Exception as e:
 finally:
  print("Program ended")
  
- 
+##DAy-25
+
+TOPICS COVERED:
+
+1.Libraries
+2.Modules
+3.Packages.
+4.Import
+
+What I learnt:
+Import: it is something that can be used take from others.
+Libraries-Library is a group of packages and modules.
+modules- It is a group of functions ,classes and variables.
+packages- it is group of modules.
+
     
  
   
