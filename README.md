@@ -1257,7 +1257,7 @@ except Exception as e:
 finally:
  print("Program ended")
  
-##DAy-25
+##Day-25
 
 TOPICS COVERED:
 
@@ -1273,10 +1273,69 @@ modules- It is a group of functions ,classes and variables.
 packages- it is group of modules.
 
     
- 
-  
- 
+#Day-26.
+Topics covered:
+1.Match case
+num=int(input("Enter the num"))
+if num==1:
+print("one")
+if num==2:
+print("Two")
+if num==:
+orint("Three")
+this is only applicable to python3.10+
+syntax:
+match variable:
+   case values1:
+      #print()
+num=int(input("Enter thee num"))
+ match num:
+ case 1:
+     print("one")
+ case 2:
+     print("two")
+ case 3:
+     print("Three")
+ #instead os else 
+ case_:
+     print("Some other number")
 
+ match day:
+ case monday:
+   print("Start the working")
+ case tuesday:
+   print("Second day")
+  case wednesday:
+   print("THird day")
+  case friday:
+    print("weekwnd is coming")
+  case (saturday| sunday):     #| is the or operator.
+    print("weekwnd day")
+  case _: # it acts like else part.
+    print("just another day")
+ 
+ 
+time=7
+is_hungry=True
+match time:
+case 6:
+  print("Breakfast")
+ case 14:
+    print("lunch")
+  case 7:
+     print("dinner")
+   case 5 if is_hungry:
+     print("snadcks")
+   case _:
+      print("work")
+  # if is hungry is False  then it prints work.
+
+#day-27.
+Topics covered:
+Decorators.
+1. 
+   
+  
 
 
 
