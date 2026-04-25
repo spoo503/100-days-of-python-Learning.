@@ -1,4 +1,4 @@
- ####100-days-of-python-Learning🚀
+ ## ####100-days-of-python-Learning🚀
 
  
 
@@ -21,7 +21,7 @@
 1.prints statements- print statements are those statements that are used to display the output.
 
 
-
+vart
 1.Variables- variables are used to  store data in memory location .
 
 
