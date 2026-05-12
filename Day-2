@@ -1,4 +1,4 @@
-#problem 1.
+##problem 1.
 name=input("Enter the name of the passenger")
 Age=int(input("Enter the age of passenger"))
 bus_point=input("Enter the boarding point")
