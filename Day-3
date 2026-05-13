@@ -1,4 +1,4 @@
-name = input("Enter the name of asha worker")
+#name = input("Enter the name of asha worker")
 village=input("Enter the village name")
 Branch=input("Enter the the branch name")
 mobile_number=int(input("Enter the mobile number "))
