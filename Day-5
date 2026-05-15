@@ -1,4 +1,4 @@
-import math
+#import math
 while True:
    a=int(input("Enter the coefficient of x2"))
    b =int(input("Enter the coefficient of x"))
