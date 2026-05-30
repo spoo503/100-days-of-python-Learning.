@@ -4,7 +4,7 @@ Branch=input("Enter the the branch name")
 mobile_number=int(input("Enter the mobile number "))
 visit_house=int(input("Enter the number of hous3 visited"))
 salary=int(input("Enter the salary of the worker "))
-if(visit_house==20):
+if(visit_house<=20):
     print("Total amount is",visit_house*salary+500)
 elif(visit_house>=50):
     print("Total amount is",visit_house*salary+1000)
@@ -12,25 +12,36 @@ elif(visit_house==0):
     print("Total salary",salary)
 else :
     print("total salary",salary)
-print(name)
-print(village)
+print("Name of the asha worker",name)
+print("VILLAGE",village)
 print(Branch)
-print(mobile_number)
-print(visit_house)
-print(salary)
+print("MOBLIE NUMBER",mobile_number)
+print("VISIT HOUSE",visit_house)
+print("SALARY",salary)
 
 #problem 2
 a =90 # int
 b= 9.2 #float
 print(a+ int(b)) #converting float into int.
 
-# swapping of two numbers:
+# problem 3
+swapping of two numbers:
 a= int(input("Enter the number "))
 b= int(input("Enter the number "))
 temp=a
 a=b
 temp=b
 #the value of a and b will be swapped .
+#problem 4
+age=int(input("Enter the age of the caandidite"))
+if(age<18)
+    print("YOur'e not eligible to vote")
+if(age>=18 and age<50)
+   print("youre elgible for vote and driving licence")
+if(age>50)
+   print("You are elder person")
+else
+  print("Enter the valid age")
 
 
 
