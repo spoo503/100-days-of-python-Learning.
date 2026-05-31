@@ -806,4 +806,20 @@ SLSA Generic generator
 Generate SLSA3 provenance for your existing release workflows
 More workflows
 Footer .check whether this is correct or not .i need to modify this 
+_____________________####20 DAYS CHALLENGE###______________________________________________________
+"I have completed 20 days of practice in my separate 100-questions-of-python repo. Combining both repos, I have completed 50 days of Python learning overall. Starting Day 51 with DSA from here. 🚀"
+
+
+Post this instead — after you solve it yourself:
+
+"Day 51 — Back after semester exams! 📚
+Started DSA today with Arrays.
+Understood the Two Sum problem and working on solving it myself.
+Exams paused my streak but didn't stop my learning.
+Consistency isn't about being perfect every day — it's about coming back. 🚀
+#DSA #Python #100DaysOfCode #LeetCode"
+
+
+
+
 
