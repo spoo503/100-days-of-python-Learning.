@@ -1,4 +1,4 @@
-###problem 1
+####problem 1
 class student():
     def __init__(self,name,marks1,marks2,marks3):
         self.name=name
