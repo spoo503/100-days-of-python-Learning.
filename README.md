@@ -818,6 +818,85 @@ Understood the Two Sum problem and working on solving it myself.
 Exams paused my streak but didn't stop my learning.
 Consistency isn't about being perfect every day — it's about coming back. 🚀
 #DSA #Python #100DaysOfCode #LeetCode"
+# Day-X of DSA Learning 🚀
+
+## Topics Covered
+
+### 1. Linear Search
+
+* Searching for an element by traversing the array one by one.
+* Returns the index when the element is found.
+* Suitable for unsorted arrays.
+
+### 2. Span of an Array
+
+* Span = Maximum Element - Minimum Element.
+* Learned how to find the largest and smallest elements in an array using loops.
+
+### 3. Binary Search
+
+* Efficient searching technique for sorted arrays.
+* Uses two pointers:
+
+  * Low (l)
+  * High (h)
+* Repeatedly checks the middle element and reduces the search space.
+
+### 4. Second Largest Element in an Array
+
+* Learned how to find the second largest element without sorting the array.
+* Practiced updating largest and second-largest values while traversing the array.
+
+### 5. Ceil and Floor in a Sorted Array
+
+* Floor: Greatest element smaller than or equal to the target.
+* Ceil: Smallest element greater than or equal to the target.
+* Understood how binary search can be used to find insertion positions.
+
+### 6. Understanding LeetCode Class Structure
+
+* Learned why LeetCode uses:
+
+```python
+class Solution:
+    def functionName(self, parameters):
+        pass
+```
+
+* Understood the purpose of `self`.
+* Learned the difference between `return` and `print`.
+
+---
+
+## LeetCode Problems Solved
+
+### Problem 1: Two Sum
+
+* Practiced searching for two elements whose sum equals the target value.
+
+### Problem 2: Binary Search (704)
+
+* Implemented binary search on a sorted array.
+* Learned how to return the index of the target element.
+
+### Problem 3: Search Insert Position (35)
+
+* Learned why we return `l` when the target element is not found.
+* Understood insertion positions in sorted arrays.
+
+### Problem 4: Find Numbers with Even Number of Digits (1295)
+
+* Learned how to count digits using:
+
+  * String conversion (`len(str(num))`)
+  * Mathematical approach (`//10`)
+
+---
+
+
+---
+
+.
 
 
 
