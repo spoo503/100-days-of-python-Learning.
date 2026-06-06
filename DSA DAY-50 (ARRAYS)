@@ -26,4 +26,88 @@ def main():
     print(span_array(a))
 if __name__=='__main__':
     main()
+
+###BINARY SEARCH###
+def binary_search(a,key):
+    l,h,mid=0,len(a)-1,0
+    while(l<=h):
+        mid=(l+h)//2
+        if key==a[mid]:
+            return mid
+        elif key<a[mid]:
+            h=mid-1
+            #l=l
+        else:
+            l=mid+1
+            #h=h
+def main():
+    a=[1,2,3,4]
+    key=3
+    print(binary_search(a,key))
+if __name__=='__main__':
+    main()
+
+##SECONDLARGEST ELEMENT###
+def second_largest(a):
+    max1,max2=0,0
+    if a[0]>a[1]:
+        max1,max2=a[0],a[1]
+    else :
+        max1,max2=a[0],a[1]
+    for i in range(2,len(a)):
+        if a[i]>max1:
+            max2=max1
+            max1=a[i]
+        elif a[i]>max2:
+            max2=a[i]
+    return max2 
+def main():
+    a=[23,42,3,3]
+    print(second_largest(a))
+if __name__=='__main__':
+    main()
+###SECONDLARGESTELEMENT####
+def second_largest(a):
+    max1,max2=0,0
+    if a[0]<a[1]:
+        max1,max2=a[1],a[0]
+    else:
+        max1,max2=a[0],a[1]
+    for i in range(2,len(a)):
+        if a[i]<max1:
+            max2=max1
+            max1=a[i]
+        elif a[i]<max2:
+            max2=a[i]
+    return max2
+def main():
+    a=[1,2,3,4,5]
+    print(second_largest(a))
+if __name__=='__main__':
+    main()
+
+
+###CEIL AND FLOOR OF ARRAYS##
+def ceil(a,key):
+    l,h,mid=0,len(a)-1,0
+    while(l<=h):
+        mid=(l+h)//2
+        if key==a[mid]:
+            return a[i]
+        elif key<a[mid]:
+            h=mid-1
+            #l=l
+        else:
+            l=mid+1
+            #h=h
+   if l<len(a):
+      return a[l]
+    else:
+        return -1
+def main():
+    a=[1,2,3,4,5,67]
+    key=65
+    print(ceil(a,key))
+if __name__=='__main__':
+    main()
     
