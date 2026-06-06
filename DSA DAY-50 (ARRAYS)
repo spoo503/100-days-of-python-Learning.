@@ -1,0 +1,29 @@
+def linear_search(a,key):
+    for i in range(len(a)):
+        if a[i]==key:
+            return i
+    return -1
+def main():
+    a=[1,2,3,4]
+    key=4
+    print(linear_search(a,key))
+
+if __name__ =='__main__':
+    main()
+
+##SPAN OF ARRAY###
+def span_array(a):
+    max=a[0]
+    min=a[0]
+    for i in range(0,len(a)):
+        if a[i]>max:
+            max=a[i]
+        if a[i]<min:
+            min=a[i]
+    return max-min
+def main():
+    a=[1,2,3,4,5]
+    print(span_array(a))
+if __name__=='__main__':
+    main()
+    
