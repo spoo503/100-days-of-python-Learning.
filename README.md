@@ -892,7 +892,56 @@ class Solution:
   * Mathematical approach (`//10`)
 
 ---
+# Day 52 of DSA 🚀
 
+## Topics Covered
+
+- Ascending Binary Search
+- Descending Binary Search
+- Search Insert Position
+- First and Last Occurrence of an Element
+- Valid Perfect Square
+- Sqrt(x)
+- Search in a 2D Matrix
+
+## Key Concepts
+
+### Binary Search
+- Find the middle element.
+- Move left or right based on the target.
+
+### Search Insert Position
+- If target is not present, return the position where it should be inserted.
+
+### First and Last Occurrence
+- Used when duplicates are present in a sorted array.
+- Find the starting and ending index of the target.
+
+### Valid Perfect Square
+- Check if:
+  m * m == num
+
+### Sqrt(x)
+- Find the integer square root of a number using binary search.
+
+### Search a 2D Matrix
+- Treat the matrix as a sorted array.
+- Convert index to row and column:
+  - row = mid // cols
+  - col = mid % cols
+
+## Problems Solved
+
+1. Binary Search (704)
+2. Search Insert Position (35)
+3. Find First and Last Position of Element in Sorted Array (34)
+4. Valid Perfect Square (367)
+5. Sqrt(x) (69)
+6. Search a 2D Matrix (74)
+
+## Day 52 Summary
+
+Learned advanced binary search patterns, handling duplicates, square root problems, and applying binary search on a 2D matrix.
 
 ---
 
