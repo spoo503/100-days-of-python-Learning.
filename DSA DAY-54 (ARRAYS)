@@ -1,0 +1,114 @@
+
+DESCENDING BINARY SEARCH-------------------------------------------------------------------------
+class Solution:
+    def search(self, nums, target):
+        l = 0
+        h = len(nums) - 1
+
+        while l <= h:
+            mid = (l + h) // 2
+
+            if nums[mid] == target:
+                return mid
+
+            elif target < nums[mid]:
+                l = mid + 1
+
+
+            else:
+                h = mid - 1
+
+                
+        return -1
+a=[78,4,3,2,1]
+so l=0,h=5,target 78,mid=2
+l=0,h=1,mid=0
+----------------------------------------------------COUNT SMALLLER VALUES----------------------------------------------------------------
+CASE 1:
+IF AN ARRAY=[1,2,3,4,5,6,7,8]
+* NO DUPLICATE ELEMENTS
+* SORTED /ASCENDING ORDER
+*WE SHOULD DO BINARY SEARCH
+class Solution:
+    def array(self,a):
+        target=2
+        l,h,m=0,len(a)-1,0
+        while(l<=h):
+            m=(l+h)//2
+            if target==a[m]:
+               return m
+            elif target<a[m]:
+                h=m-1
+            else:
+                l=m+1
+        return m
+s=Solution()
+print(s.array([1,2,3,4,5]))
+------------------------------------------------------------------------------------------------------------------------------------
+CASE-2:
+IF AN ARRAY=[1,2,2,2,4,5]
+*DUPLICANTS ARE PRESENT
+*DO BINARY SEARCH
+*CHECK FOR DUPLICANTS 
+class Solution:
+    def array(self, a, target):
+        l = 0
+        h = len(a) - 1
+
+        while l <= h:
+            m = (l + h) // 2
+
+            if a[m] == target:
+
+                left = m
+                while left > 0 and a[left - 1] == target:
+                    left -= 1
+
+                right = m
+                while right < len(a) - 1 and a[right + 1] == target:
+                    right += 1
+
+                count = right - left + 1
+
+                return left, right, count
+
+            elif target < a[m]:
+                h = m - 1
+
+            else:
+                l = m + 1
+
+        return -1
+
+
+s = Solution()
+
+a = [1, 2, 2, 2, 2, 4, 5, 6]
+print(s.array(a, 2))
+l=0,h=7,m=3
+count =4+1-1
+count=4
+----------------------------------------------------------------------------------------------------------------------------------------------
+CASE -3:
+IF ARRAY HAS NO TARGET VALUE.
+*DO BINARY SEARCH
+*THEN CHECK FOR TARGET ELEMENT
+class Solution:
+    def no_Array(self,a):
+        target=68
+        l,h,m=0,len(a)-1,0
+        while(l<=h):
+            m=(l+h)//2
+            if target==a[m]:
+                return m
+            elif target<a[m]:
+                h=m-1
+            else:
+                l=m+1
+        return l
+s=Solution()
+print(no_Array([12,13,45,67,89]))
+l=0,h=4,m=2
+l=3,h=4,m=3
+l=4,h=4,m=4
+l=4,h=3,m=3---out of the loop
