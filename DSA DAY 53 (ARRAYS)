@@ -1,0 +1,42 @@
+------------------------------BITONIC ARRAY-----------------------------------------------------------------------------------------
+def bitonic_find(a):
+    l,r,m=0,len(a)-1,0
+    while l<=r:
+        m=(l+r)//2
+        if a[m]>a[m+1] and a[m]>a[m-1]:
+            return m
+        elif a[m]>a[m+1] and a[m]<a[m-1]:
+            l=m+1
+        else:
+            r=m-1
+def main():
+    a=[12,334,566,500,200,20]
+    print(bitonic_find(a))
+if __name__=='__main__':
+    main()
+------------------------------------------ASCENDING BINARY SEARCH--------------------------------------------------------------------------
+class Solution:
+    def search(self, nums, target):
+        l = 0
+        h = len(nums) - 1
+
+        while l <= h:
+            mid = (l + h) // 2
+
+            if nums[mid] == target:
+                return mid
+
+            elif target < nums[mid]:
+                h = mid - 1
+
+            else:
+                l = mid + 1
+
+        return -1
+target < mid value  → go LEFT
+target > mid value  → go RIGHT
+a=[1,2,3,4,5,78]
+so l=0,h=5,target 78,mid=2
+l=3 ,h=5,mid=4,
+l=5,h=5,mid=5
+-------------------------------------------
