@@ -1,0 +1,21 @@
+class Solution:
+    def rotated_array(self,a):
+        l,h,m=0,len(a)-1,0
+        target=2
+        while(l<=h):
+            m=(l+h)//2
+            if a[m]==target:
+                return m
+            elif a[l]<=a[m]:
+                if (target>=a[l] and target<a[m]):
+                    h=m-1
+                else:
+                    l=m+1
+            else:
+                if target<=a[h] and target>a[m]:
+                    l=m+1
+                else:
+                    h=m-1
+        return -1
+s=Solution()
+print(s.rotated_array([7,8,1,2,4,5,6]))
