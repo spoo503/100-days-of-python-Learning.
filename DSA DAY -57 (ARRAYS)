@@ -156,3 +156,64 @@ Loop ends.
 Answer:
 
 102
+__________________________________________PAINTER'S PARTITION_______________________________________________________________________________
+HERE ALSO SAME CONCEPT AND LOGIC 
+QUESTION SAYS THAT WITH  SOME CONDITONS:
+1.A BOARD WILL BE ALLOCATED TO EXACTLY TO ONE PAINTER
+2.EACH PAINTER  HAS TO ALLOCATED ATLEAST ONE BOARD.
+3.ALLOTMENT BOARDS  MUST BE IN CONTIGUOUS  ORDER.
+4.ALL BOOKS MUST BE ALLOCATED.
+
+WHY DO WE NEED TO USE BINARY SEARCH TO SOLVE???????????
+--------> AS WE KNOW THE ARRAY MAY BE SORTED AND NOT SORTED ,BUT ALSO WE CHOOSE BINARY SEARCH WE KNOW THAT ONE OF 
+THE STUDENT WILL THE MINIMUM OF PAGES BOARDS AND ONE WILL GET MAXIMUM NUMBER IF BOARDS SO IF
+WE  TAKE RANGE FROM MIN BOARDS TO MAX BOARDS THEN ELMENTS IN THE ARRAY WILL BE SORTED.
+SO WE  CAN USE BINARY SEARCH.
+
+
+VARIABLES:
+1.arr-[12,34,45,67,90]
+2.b-no of boards.
+3.pbc=painter's board count.
+4.painter's -represents the number of the student.
+5.l = maximum pages in a single book
+6.h = sum of all pages of all books
+7.m= (l+h)//2
+
+def is_possible_sol(arr,b,m):
+    painters =1
+    pbc=0
+    for i in arr:
+        if i>m:
+            return False
+        if pbc+ i<=m:
+            pbc +=i
+        else:
+            painters+=1
+            if painters>b:
+                return False
+            else:
+                pbc=i
+    return True
+def max_painters(arr,b):
+    if b>len(arr):
+        return -1
+    l=max(arr)
+    h=sum(arr)
+    res=-1
+    while(l<=h):
+        m=(l+h)//2
+        if is_possible_sol(arr,b,m):
+            res=m
+            h=m-1
+        else:
+            l=m+1
+    return res
+def main():
+    arr=[10,20,30,60]
+    a=2
+    b=2
+    print(max_painters(arr,b))
+if __name__=='__main__':
+    main()
+    
