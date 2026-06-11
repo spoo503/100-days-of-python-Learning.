@@ -1,0 +1,158 @@
+__________________________________________________ALLOCATE BOOKS_______________________________________________________
+IT WAS ASKED BY GOOGLE COMPANY,
+QUESTION SAYS THAT EACH BOOK SHOULB BE GIVEN TO ALL STUDENTS WILL SOME CONDITONS:
+1.A BOOK WILL BE ALLOCATED TO EXACTLY TO ONE STUDENT
+2.EACH STUDENT HAS TO ALLOCATED ATLEAST ONE BOOK.
+3.ALLOTMENT BOOKS MUST BE IN CONTIGUOUS  ORDER.
+4.ALL BOOKS MUST BE ALLOCATED.
+
+WHY DO WE NEED TO USE BINARY SEARCH TO SOLVE???????????
+--------> AS WE KNOW THE ARRAY MAY BE SORTED AND NOT SORTED ,BUT ALSO WE CHOOSE BINARY SEARCH WE KNOW THAT ONE OF 
+THE STUDENT WILL THE MINIMUM OF PAGES BOOKS AND ONE WILL GET MAXIMUM NUMBER IF BOOKS SO IF
+WE  TAKE RANGE FROM MIN PAGES TO MAX PAGES THEN ELMENTS IN THE ARRAY WILL BE SORTED.
+SO WE  CAN USE BINARY SEARCH.
+
+VARIABLES:
+1.arr-[12,34,45,67,90]
+2.b-no of students.
+3.spc=student pages count.
+4.student -represents the number of the student.
+5.l = maximum pages in a single book
+6.h = sum of all pages of all books
+7.m= (l+h)//2
+
+
+let us consider arr=[12,34,67,90]
+b=2 (no of students)
+so ,
+
+
+
+def is_possible_sol(arr,b,m):
+    students=1
+    spc=0
+    for  i in arr:
+        if i>m:
+            return False
+        if spc+i <= m:
+            spc=spc+i   
+        else:
+            students+=1
+            if students>b:
+                return False
+            else:
+                spc=i
+    return True
+def max_page(arr,b):
+    if b>len(arr):   # if number of the students are and number of books are less then return False.
+        return -1
+    l=arr[0]        #assuming the l is equal to aray of zero it is least number of pages
+    h=0
+    for  i in arr:
+            if i>l:   # if if it is greater than of array of zero so replace the element.
+                l=i
+            h=h+i
+    res=-1
+    while(l<=h):
+        m=(l+h)//2
+        if is_possible_sol(arr,b,m)==True:   # if  that is true then res=m,h=m-1
+            res=m
+            h=m-1
+        else:
+            l=m+1
+    return res 
+def main():
+    arr=[12,23,67,90]
+    b=2
+    print(max_page(arr,b))
+if __name__=='__main__':
+    main()
+
+
+#trce of code.
+l=12,h=sum0f l==192 ,m=102
+checks if 102<12,true so for first person 12 is allocated.
+again 12+23=35 again same
+again 35+67=102 ,again stored.
+next 102+90 <102 so it moves to next student 90
+now again ,
+res=m
+5. Actual Binary Search Trace
+Iteration 1
+l=90
+h=192
+m=141
+
+Allocation:
+
+12+23+67 = 102
+102+90 > 141
+
+Student 1 = 102
+Student 2 = 90
+
+Possible → True
+
+res=141
+h=140
+Iteration 2
+l=90
+h=140
+m=115
+
+Possible → True
+
+res=115
+h=114
+Iteration 3
+l=90
+h=114
+m=102
+
+Possible → True
+
+res=102
+h=101
+Iteration 4
+l=90
+h=101
+m=95
+
+Not Possible
+
+l=96
+Iteration 5
+l=96
+h=101
+m=98
+
+Not Possible
+
+l=99
+Iteration 6
+l=99
+h=101
+m=100
+
+Not Possible
+
+l=101
+Iteration 7
+l=101
+h=101
+m=101
+
+Not Possible
+
+l=102
+
+Now:
+
+l=102
+h=101
+
+Loop ends.
+
+Answer:
+
+102
