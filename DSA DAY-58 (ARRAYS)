@@ -1,0 +1,60 @@
+__________________________________MINIMUM DAYS (BLOOM DAY)_________________________________________
+def possible(arr,day,m,k):
+    flowers=0
+    bouquets=0
+    for i in arr:
+        if i<=day:
+            flowers+=1
+            if flowers==k:
+                bouquets+=1
+                flowers=0
+        else:
+            flowers=0
+    return bouquets>=m
+def min_days(arr,m,k):
+    if m*k>len(arr):
+        return -1
+    l=min(arr)
+    h=max(arr)
+    while(l<=h):
+        mid=(l+h)//2
+        if possible(arr,mid,m,k):
+            h=mid-1
+        else:
+            l=mid+1
+    return l
+def main():
+    arr=[1,2,3,4,5]
+    m=3
+    k=1
+    print(min_days(arr,m,k))
+if __name__=='__main__':
+    main()
+
+____________________________________________CHECK SORTED ARRAY______________________________
+Problem: Check if array is sorted
+
+Question:
+
+arr = [1, 2, 3, 4, 5]
+
+You only need to answer:
+
+Is it sorted?
+YES or NO
+
+You are not moving elements.
+
+You are not swapping elements.
+
+You are not sorting the array.
+
+You are only checking.
+def sorted_elements(arr):
+
+    for i in range(len(arr)-1):
+
+        if arr[i] > arr[i+1]:
+            return False
+
+    return True#every adjacent pair is in the correct order.
