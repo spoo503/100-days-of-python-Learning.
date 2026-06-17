@@ -1,0 +1,32 @@
+_______________MOVE ZEROS TO LAST_________________________|
+# we need to move the zeros of eleemnts in the array without copying #and using extra space.
+class Solution:
+    def move_zeros(self,arr):
+        size=len(arr)
+        if (size==0 or size==1):
+            return arr
+        nz=0
+        z=0
+        while(nz<size):
+            if arr[nz]!=0:
+                arr[nz],arr[z]=arr[z],arr[nz]
+                nz+=1
+                z+=1
+            else:
+                nz+=1
+        return arr
+s=Solution()
+print(s.move_zeros([0,10,22,8,0,5,0]))
+
+
+_______________________sub_array_____________________________
+here we need to find the sub array ,subarray is a part of array .
+imp:
+the sub-array must be continguous.
+class SOlution:
+    def sub_array(self,arr):
+        for i in range(0,len(arr)):
+            for j in range(i,len(arr)):
+                print(arr[i:j+1])
+s=SOlution()
+print(s.sub_array([1,2,3,4,5]))
