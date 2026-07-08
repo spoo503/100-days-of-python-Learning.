@@ -1,0 +1,17 @@
+
+
+
+________________________________________________INVERSE OF ARRAYS_______________________________________________
+def inverse(a):
+    b=[0]*len(a)   #replication of list so having same number of
+    for i in range(len(a)):#elements
+        v=a[i]
+        b[v]=i
+    return b
+def main():
+    a=[2,3,1,0,4]
+    b=inverse(a)
+    print(a)
+    print(b)
+if __name__=='__main__':
+    main()
