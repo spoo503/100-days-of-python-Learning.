@@ -1,0 +1,22 @@
+__________________________________________FREQUENCY ____________________________________________________________
+SO LET US CONSIDER AN ARRAY OF ELEMENTS=[20,20,30,30,40]
+HERE WE NEED TO FIND THE FREUENCY OF THE ELEMENTS IN AN ARRAY
+NOTE:
+ELEMENTS ARE IN SORTED MANNER
+IT IS THE NUMBER OF TIMES IT OCCURS IN A ARRAY
+class Solution:
+    def check_freq(self,arr):
+        freq=1
+        i=1
+        while(i<len(arr)):
+            while(i<len(arr) and arr[i]==arr[i-1]):
+                freq+=1
+                i+=1
+            print(arr[i-1] , freq)
+            freq=1
+            i+=1
+            if i-1 < len(arr) and i==len(arr):
+                  print(arr[i-1] ,freq)
+s=Solution()
+print(s.check_freq([20,30,30,40]))
+        
