@@ -1,0 +1,38 @@
+#let us consider an array
+#1.SORTED ARRAY
+#2.REMOVE THE DUPLICANTS.
+class Solution:
+    def remove_duplicants(self,arr):
+        if len(arr)==0:
+            return 0
+        s=[]
+        while(len(arr)!=0):
+            if len(arr)==1:
+                return arr
+            else:
+                for i in range(0,len(arr)):
+                    if arr[i]!=arr[i-1]:
+                        s.append(arr[i])
+                return s
+s=Solution()
+print(s.remove_duplicants([1,2,2,2,3,4]))
+
+If an interviewer says "sorted array", 
+              that is a hint that you should avoid nested loops.
+              A sorted array lets you solve this problem in O(n) by comparing each element only with its previous neighbor, instead of using O(n²) nested loops
+              
+              #left rotate by one.
+              class Solution:
+    def left_rotate(self,arr):
+        if len(arr)==0:
+            return 0
+        temp=arr[0]  #to save the element 
+        if len(arr)==1:
+            return arr
+        else:
+            for i in range(1,len(arr)):
+                arr[i-1]=arr[i] #to shift the element
+            arr[len(arr)-1] = temp
+            return arr
+s=Solution()
+print(s.left_rotate([1,2,3,4]))
