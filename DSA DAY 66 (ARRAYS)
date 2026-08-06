@@ -1,0 +1,23 @@
+#MOVE ZEROES TO END
+  class solution:
+    def move_zero(self,arr):
+        l=[]
+        for i in range(0,len(arr)):
+            if arr[i]!=0:
+                l.append(arr[i])
+        while len(l) < len(arr):
+            l.append(0)
+        return l
+s=solution()
+print(s.move_zero([0,1,0,2]))
+
+#linear search
+          class solution:
+    def linear_search(self,arr):
+        key=12
+        for i in range(0,len(arr)):
+            if arr[i]==key:
+                return i
+        return -1
+s=solution()
+print(s.linear_search([12,23,345]))
