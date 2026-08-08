@@ -1,0 +1,184 @@
+class Solution:
+    def remove_adjacent_duplicates(self, arr):
+        s = [arr[0]]                    # keep first element, no comparison needed
+        for i in range(1, len(arr)):
+            if arr[i] != arr[i-1]:
+                s.append(arr[i])
+        return s
+
+s = Solution()
+print(s.remove_adjacent_duplicates([3, 3, 7, 7, 7, 2, 9, 9]))  
+# [3, 7, 2, 9]
+
+print(s.remove_adjacent_duplicates([5, 2, 8, 5]))
+# [5, 2, 8, 5]  <-- both 5's kept, since they're not adjacent
+
+
+B.class Solution:
+    def remove_duplicates_anywhere(self, arr):
+        seen = set()
+        s = []
+        for i in range(0, len(arr)):
+            if arr[i] not in seen:
+                s.append(arr[i])
+                seen.add(arr[i])
+        return s
+
+s = Solution()
+print(s.remove_duplicates_anywhere([3, 3, 7, 7, 7, 2, 9, 9]))
+# [3, 7, 2, 9]
+
+print(s.remove_duplicates_anywhere([5, 2, 8, 5]))
+# [5, 2, 8]  <-- second 5 removed, no matter how far apart
+
+
+2.SECOND LARGEST ARRAY
+class Solution:
+    def second_largest(self,arr):
+        Max=arr[0]
+        Max1=arr[1]
+        if arr[0]> arr[1]:
+            Max,Max1=arr[0],arr[1]
+        else:
+            Max,Max1=arr[1],arr[0]
+        for i in range(2,len(arr)):
+            if arr[i]>Max:
+                Max1=Max
+                Max=arr[i]
+            elif arr[i]>Max1:  #not written this part of the code
+                Max1=arr[i]    #not written 
+        return Max1
+s=Solution()
+print(s.second_largest([4, 1, 9, 2, 8]))
+
+LEFT ROTATE ARRAY BY ONE
+#[10, 20, 30, 40] — left rotate by one
+class Solution:
+    def left_rotate(self,arr):
+        temp=arr[0]
+        for i in range(0,len(arr)-1):
+            arr[i]=arr[i+1]
+        arr[len(arr)-1]=temp
+        return arr
+s=Solution()
+print(s.left_rotate([10,20,30,40]))
+trace the code.
+i=0: arr[0] = arr[1] → take the value at position 1 (which is 20) and put it into position 0.
+→ arr = [20, 20, 30, 40]
+
+#MOVE ZEROES TO END.
+#[5, 0, 3, 0, 12, 0, 8] — move zeroes to end (keep other elements in original relative order
+class Solution:
+    def move_zero(self,arr):
+        s=[]
+        for i in range(1,len(arr)):
+            if arr[i]!=0:
+                s.append(arr[i])
+        while(len(s)<len(arr)):    #logic which i have missed
+            s.append(0)
+        return s
+s=Solution()
+print(s.move_zero([5, 0, 3, 0, 12, 0, 8]))
+
+
+ #missing numbers
+class Solution:
+    def missing_number(self, arr):
+        n = len(arr)                          # length tells you the range: 0 to n
+        expected_sum = n * (n + 1) // 2  #logi
+        actual_sum = sum(arr)
+        return expected_sum - actual_sum
+s=Solution()
+print(s.missing_number([3,0,1])
+
+b.XOR method
+class Solution:
+    def missing_number(self, arr):
+        n = len(arr)
+        result = n                            # start with n itself, since range goes 0 to n
+        for i in range(n):
+            result = result ^ i ^ arr[i]
+        return result
+XOR METHOD 0-0=0,0-1=1,1-0=1 IF 3 AND 1 IS 3=001 1*2pow0+1*2pow1+
+position (right to left)	value
+1st	1 (2⁰)
+2nd	2 (2¹)
+3rd	4 (2²)
+4th	8 (2³)
+#LARGEST NUMBER
+#[7, 1, 5, 3, 9] — find the largest
+class Solution:
+    def largest_num(self,arr):
+        Max=arr[0]
+        for i in range(1,len(arr)):
+            if arr[i]>Max:
+                Max=arr[i]
+        return Max
+s=Solution()
+print(s.largest_num([7, 1, 5, 3, 9]))
+
+
+CHECK WHETHER ARRAY IS SORTED
+class Solution:
+    def check_sorted(self, arr):
+        for i in range(0, len(arr) - 1):
+            if arr[i] > arr[i+1]:
+                return False
+        return True
+
+s = Solution()
+print(s.check_sorted([1, 3, 4, 4, 5]))   # True
+print(s.check_sorted([5, 1, 4, 2]))      # False
+
+UNION SORTED ARRAY.
+SAME AS I HAVE WRITEN IN THE CODE
+
+LINEAR SEARCH
+#[8, 3, 6, 1, 9, 2], target = 9 — linear search, return the index (or -1 if not found)
+class Solution:
+    def linear(self,arr):
+        target=9
+        for i in range(0,len(arr)):
+            if arr[i]==target:
+                return arr[i]
+        return -1
+s=Solution()
+print(s.linear([8, 3, 6, 1, 9, 2]))
+
+[15, 15, 15] — second largest of an array with all equal elements — think before coding: what should this even return
+                for question number 10  the answer is 15 only as max and second max is 15 and though all condtion fails but atlast
+it returns 15 inly
+
+#[9, 5, 5, 2] — remove duplicates (already has adjacent duplicates — does your solution assume the array is sorted first, or does it need to be?)
+the adjacent-check only reliably removes duplicates if the array is genuinely sorted (or you sort it first). 
+If duplicates can be scattered anywhere in an unsorted array, you need the seen-set approach
+(Type 2) instead — adjacency alone isn't enough unless something guarantees sorted order
+
+#[] — largest number of an empty array — what should happen here? Should it crash, or handle it gracefully?
+we can handle it by writting in the code as if len(arr)==0 then return -1
+if we write -1
+The actual concern is narrower: if arr = [-1] (a non-empty array whose only element happens to be exactly -1), then:
+
+largest([-1]) → not empty → runs loop → correctly returns -1 (the real largest, since it's the only element)
+largest([]) → empty → returns -1 (the sentinel, meaning "nothing here")
+
+Both cases return the exact same value, -1 — so if you only see the number -1 come back, you genuinely cannot tell which situation happened: was the array [-1], or was it
+so use raise an exception.
+if len(arr) == 0:
+    raise ValueError("Array is empty")
+
+[1] — check if sorted (single element — you already know why this should return True)
+y bcz we need to only check bt there is no another element to compare also and at the end it returns true so
+Since the loop never runs, we never hit return False — we fall straight through to return True.
+
+arr1 = [1, 1, 2, 3], arr2 = [2, 3, 3, 4] — union of two sorted arrays with internal duplicates in each
+So for question 15, the correct answer is: rotated array = [2, 8, 2, 6, 6], and it is not sorted, because of the 8 → 2 drop right at the start
+
+16. Left rotate [1, 2, 3, 4, 5] by one, then find the second largest of the result.
+just combine two codes
+
+
+17. Move zeroes to end in [0, 1, 0, 3, 0, 5], then linear search for 5 in the result and return its new index
+movw zeroes means firat write that code ull get array as [1,3,5,0,0,0] then linear search for 5 ull get the target so true and index would be 2
+
+        
