@@ -946,7 +946,17 @@ Learned advanced binary search patterns, handling duplicates, square root proble
 ---
 
 .
+Day 67 of my Python + DSA journey. 🔹
 
+Recent topics I've been working through:
+🔹 Binary search variants
+🔹 Max Consecutive Ones
+🔹 Longest Subarray
+🔹 Find the element that appears once
+
+DSA is turning out to be a longer game than 100 days — so once this challenge wraps, DSA continues as its own series, starting fresh from Day 0.
+
+#100DaysOfCode #Python #DSA #LeetCode
 
 
 
