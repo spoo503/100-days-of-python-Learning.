@@ -1,0 +1,33 @@
+
+LONGEST SUBARRAY WITH SUM IS EQUAL TO ZERO.
+class Solution:
+    def longest_sub_0(self,arr):
+        k=0
+        Max_length=0
+        for i in range(0,len(arr)):
+            sum=0
+            for j in range(i,len(arr)):
+                sum+=arr[j]
+                if sum==0:
+                    length=j-i+1
+                    Max_length=max(Max_length,length)
+        return Max_length
+s=Solution()
+print(s.longest_sub_0([9, -3, 3, -1, 6, -5]))
+
+
+TWO SUM
+class Solution:
+    def two_sum(self):
+        n=int(input("ENter the number of elements"))
+        arr=list(map(int,input("Enter the elements").split()))
+        target=int(input("Enter the target element"))
+        for i in range (0,len(arr)):
+            for j in range(i+1,len(arr)):
+                if arr[i]+arr[j]==target:
+                    print("found the sum")
+                    return [i,j]
+        return[-1,-1]
+s=Solution()
+print(s.two_sum())
+
