@@ -1,0 +1,104 @@
+Sort an array of 0s, 1s and 2s
+Problem Statement:
+Given an array nums consisting of only 0, 1, or 2. Sort the array in non-decreasing order.
+The sorting must be done in-place, without making a copy of the original array.
+LET US CONSIDER AN ARRAY AS[1,2,1,0,1]
+BRUTE METHOD LIKE:
+#LET US CONSIDER ARRAY AS [1,0,2,1,0]
+class Solution:
+    def sort_array(self,arr):
+        n=len(arr)
+        count_0=0
+        count_1=0
+        count_2=0
+        for i in range(n):
+            for j in range(0,n-i-1):
+                if arr[j]>arr[j+1]:
+                    arr[j],arr[j+1]=arr[j+1],arr[j]
+        for i in range(0,len(arr)):
+            if arr[i]==0:
+                count_0+=1
+        for i in range(0,len(arr)):
+            if arr[i]==1:
+                count_1+=1
+        for i in range(0,len(arr)):
+            if arr[i]==2:
+                count_2+=1
+        return arr ,count_0,count_1,count_2
+s=Solution()
+print(s.sort_array([1,0,2,1,0]))
+OPTIMISED METHOD:
+class Solution:
+    def sort_array(self, arr):
+        count_0 = 0
+        count_1 = 0
+        count_2 = 0
+
+        for num in arr:
+            if num == 0:
+                count_0 += 1
+            elif num == 1:
+                count_1 += 1
+            else:
+                count_2 += 1
+
+        arr = [0] * count_0 + [1] * count_1 + [2] * count_2
+
+        return arr
+Find the Majority Element that occurs more than N/2 times
+Problem Statement: Given an integer array nums of size n, return the majority element of the array.
+The majority element of an array is an element that appears more than n/2 times in the array.
+The array is guaranteed to have a majority element.
+class Solution:
+    def majority_array(self, arr):
+        Max = 0
+        majority = None
+
+        for i in range(len(arr)):
+            count = 0  #Because for every new element, we need to start counting again from zero.
+
+            for j in range(len(arr)):
+                if arr[i] == arr[j]:
+                    count += 1
+
+            if count > Max:
+                Max = count
+                majority = arr[i]
+
+        return majority, Max
+y we need majority
+Because:
+Max = 5
+only tells you how many times the element appears.
+
+It doesn't tell you which element appears 5 times.
+
+
+s = Solution()
+print(s.majority_array([7, 0, 0, 1, 7, 7, 2, 7, 7]))
+
+Kadane's Algorithm : Maximum Subarray Sum in an Array
+Problem Statement: Given an integer array nums, find the subarray with the largest sum and return the sum of the elements present in that subarray.
+A subarray is a contiguous non-empty sequence of elements within an array.
+class Solution:
+    def kadanes(self, arr):
+        current_sum = 0
+        max_sum = float('-inf')  #because we want max_sum to start as the smallest possible value.
+
+        for i in range(len(arr)):
+            current_sum += arr[i]
+
+            max_sum = max(max_sum, current_sum)
+
+            if current_sum < 0: #"My current subarray has become a disadvantage means negative. Start a new subarray from the next element."
+                current_sum = 0
+
+        return max_sum
+
+
+s = Solution()
+print(s.kadanes([2, 3, 5, -2, 7, -4]))
+
+
+
+
