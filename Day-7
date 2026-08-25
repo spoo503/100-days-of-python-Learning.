@@ -1,4 +1,4 @@
-##@@##item=["coffee","sugar","milk","mug","spoon","filter"]
+######item=["coffee","sugar","milk","mug","spoon","filter"]
 print(type(item))             #tells whch data type (List).-list
 print(item)                   #gives all elements included in items.["coffee","sugar","milk","mug","spoon","filter"]
 print(item.append("tea"))      # element tea is aded at last of item.["coffee","sugar","milk","mug","spoon","filter","tea"]
