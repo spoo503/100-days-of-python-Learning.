@@ -1,0 +1,180 @@
+1.Find the largest element in an array .
+class Solution:
+    def largest_element(self,arr):
+        target=arr[0]
+        for i in range(1,len(arr)):
+            if arr[i]>target:
+                target=arr[i]
+        return target
+s=Solution()
+print(s.largest_element([12,23,455]))
+2.Find the second largest element in an array without sorting — track two variables in one pass.
+class Solution:
+    def second_largest(self,arr):
+        Max1=arr[0]
+        Max2=arr[1]
+        if arr[0]>arr[1]:
+           Max1,Max2=arr[0],arr[1]
+        else:
+            Max2,Max1=arr[0],arr[1]
+        for i in range(2,len(arr)):
+            if arr[i]>Max1:
+                Max2=Max1
+                Max1=arr[i]
+            elif arr[i]>Max2:
+                Max2=arr[i]
+        return Max2  
+s=Solution()
+print(s.second_largest([5,10,7]))
+3.Check if an array is sorted (non-decreasing) — return true/false, one pass, handle single-element and empty arrays.
+class Solution:
+    def check_sort(self,arr):
+        if len(arr)==0:
+            print("no elements found")
+        elif len(arr)==1:
+            print("Array contains only one element")
+        else:
+            for i in range(1,len(arr)):
+                if  arr[i]<arr[i-1]:
+                    print("Elements ir array is sorted")
+                    return -1
+            return 1 # loop finished with no violations -> sorted
+s=Solution()
+print(s.check_sort([1,2]))
+4.Check if an array is sorted and rotated — e.g. [3,4,5,1,2] should count as sorted-rotated. Handle at most one "break point."
+class Solution:
+    def check_sorted_and_rotated(self, arr):
+        n = len(arr)
+        count = 0  # counts how many "drop" points we find
+
+        for i in range(1, n):
+            if arr[i] < arr[i - 1]:
+                count += 1
+
+        # circular check: compare last element back to first element
+        if arr[n - 1] > arr[0]:
+            count += 1
+
+        return count <= 1
+
+
+s = Solution()
+print(s.check_sorted_and_rotated([3, 4, 5, 1, 2]))  # True
+print(s.check_sorted_and_rotated([2, 1, 3, 4, 5]))  # False
+print(s.check_sorted_and_rotated([1, 2, 3]))        # True (already sorted, 0 rotation)
+print(s.check_sorted_and_rotated([2, 1]))            # True (rotated by 1)
+#i still have confusion.
+5.5. Remove duplicates from a sorted array in-place, return the count of unique elements (two-pointer technique).
+class Solution:
+    def remove_duplicants(self,arr):
+        count=0
+        s=[arr[0]]
+        for i in range(1,len(arr)):
+            if arr[i]!=arr[i-1]:
+                s.append(arr[i])
+                count+=1
+        print("unique elements count is",count)
+        return s
+s=Solution()
+print(s.remove_duplicants([1,2,2,4,5,6,7,7]))
+6. Left rotate an array by 1 place, in-place, O(1) extra space.
+class Solution:
+    def left_rotate(self,arr):
+        if len(arr)<=0:
+            return arr
+        temp=arr[0]
+        for i in range(1,len(arr)):
+            arr[i-1]=arr[i]
+        arr[len(arr)-1]=temp
+s=Solution()
+print(s.left_rotate[2,3,4,5,1])
+7. Left rotate an array by K places — first do it with an extra array, then redo it in-place using the reversal trick.
+class Solution:
+    def left_rotate_k(self,arr):
+        temp=arr[k]
+        for i in range(0,len(arr)):
+            arr[i]=arr[i-k]
+        temp=arr[-k:]
+s=Solution()
+print(s.left_rotate_k[1,2,3,4,5])
+8. Move all zeros to the end while keeping the relative order of non-zero elements, in-place.
+class Solution:
+    def move_zeroes(self,arr):
+        l=[] 
+        for i in range(0,len(arr)):
+            if arr[i]!=0:
+                l.append(arr[i])
+        while len(l)<len(arr):
+            l.append(0)
+        return l
+s=Solution()
+print(s.move_zeroes[0,10,10,0,0])
+9. Implement linear search — return index or -1.
+class Solution:
+    def linear_search(self,arr):
+        target=45
+        for i in range(0,len(arr)):
+            if arr[i]==target:
+        return arr[i]
+s=Solution()
+print(s.linear_search[12,23,45,56])
+10. Find the union of two sorted arrays (result should have no duplicates) — do it in O(n+m) using two pointers, not by using a set naively.
+class Solution:
+    def union_sorted(self ):
+        arr_1=list(map(int,input("enter the input").split()))
+        arr_2=list(map(int,input("enter the input").split()))
+        ARR_1=set(arr_1)
+        ARR_2=set(arr_2)
+        print(ARR_1|ARR_2)
+s=Solution()
+print(s.union_sorted())
+11. Also find the intersection of two sorted arrays (bonus, same two-pointer idea, not in your list but pairs naturally with #10).
+class Solution:
+    def union_sorted(self ):
+        arr_1=list(map(int,input("enter the input").split()))
+        arr_2=list(map(int,input("enter the input").split()))
+        ARR_1=set(arr_1)
+        ARR_2=set(arr_2)
+        print(ARR_1|ARR_2)
+        print(ARR_1& ARR_2)
+s=Solution()
+print(s.union_sorted())
+12. Given an array of n-1 numbers from 1 to n with one missing, find the missing number — solve it 3 ways:
+sum formula, XOR, and by using an extra hash array.
+class Solution:
+    # Approach 1: Sum formula
+    def missing_number_sum(self, arr, n):
+        expected_sum = n * (n + 1) // 2
+        actual_sum = sum(arr)
+        return expected_sum - actual_sum
+
+    # Approach 2: XOR
+    def missing_number_xor(self, arr, n):
+        xor_all = 0
+        for i in range(1, n + 1):
+            xor_all ^= i          # XOR all numbers from 1 to n
+
+        xor_arr = 0
+        for num in arr:
+            xor_arr ^= num        # XOR all numbers actually present
+
+        return xor_all ^ xor_arr  # whatever's left is the missing number
+
+    # Approach 3: Hash array
+    def missing_number_hash(self, arr, n):
+        seen = [False] * (n + 1)   # index 0 unused, indices 1..n represent numbers 1..n
+        for num in arr:
+            seen[num] = True
+
+        for i in range(1, n + 1):
+            if not seen[i]:
+                return i
+
+
+s = Solution()
+arr = [1, 2, 4, 5]
+n = 5
+
+print(s.missing_number_sum(arr, n))   # 3
+print(s.missing_number_xor(arr, n))   # 3
+print(s.missing_number_hash(arr, n))  # 3
