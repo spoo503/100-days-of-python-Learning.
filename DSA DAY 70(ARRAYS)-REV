@@ -178,3 +178,44 @@ n = 5
 print(s.missing_number_sum(arr, n))   # 3
 print(s.missing_number_xor(arr, n))   # 3
 print(s.missing_number_hash(arr, n))  # 3
+#13 — Maximum Consecutive Ones
+
+The problem: given a binary array (only 0s and 1s), find the length of the longest run of consecutive 1s.
+
+Example: [1,1,0,1,1,1,0,0,1] → the runs of 1s are: [1,1] (length 2), [1,1,1] (length 3), [1] (length 1). The longest is 3.
+class Solution:
+    def consecutive_num(self,arr):
+        count=1
+        Max=1
+        for i in range(0,len(arr)):
+            if arr[i]==arr[i-1]:
+                count+=1
+            else:
+                count=1
+            Max=max(count,Max)
+        return Max
+s=Solution()
+print(s.consecutive_num([1,0,1,1,1,0,1]))
+#14 — Find the number that appears once, and other numbers appear twice
+
+The problem: you're given an array where every number appears exactly twice, except for one number that appears exactly once. Find that lone number.
+
+Example: [4, 1, 2, 1, 2] → 4 appears once, 1 appears twice, 2 appears twice. Answer: 4.
+class Solution:
+    def number_once(self, arr):
+        for i in range(0, len(arr)):
+            count = 0
+            for j in range(i, len(arr)):
+                if arr[i] == arr[j]:
+                    count += 1
+            if count == 1:
+                return arr[i]
+
+s = Solution()
+print(s.number_once([4, 1, 2, 1, 2]))   # 4
+print(s.number_once([1, 2, 1, 3, 2]))   # 3
+#15 — Majority Element
+
+The problem: given an array, find the element that appears more than ⌊n/2⌋ times (i.e., more than half the array length). The problem guarantees such an element always exists in the input (you don't need to handle the "no majority" case).
+
+Example: [2, 2, 1, 1, 1, 2, 2] → n=7, so majority means appearing more than 3 times. 2 appears 4 times → that's the majority element.
