@@ -1,0 +1,42 @@
+Rearrange Array Elements by Sign
+Problem Statement: There’s an array ‘A’ of size ‘N’ with an equal number of positive and negative elements.
+Without altering the relative order of positive and negative elements, you must return an array of alternately positive and negative values.
+class Solution:
+    def string(self, arr):
+        arr1 = []
+        arr2 = []
+        for i in range(0, len(arr)):
+            if arr[i] > 0:
+                arr1.append(arr[i])
+            elif arr[i] < 0:
+                arr2.append(arr[i])
+
+        result = [0] * len(arr)
+        posIndex = 0
+        negIndex = 1
+
+        for num in arr1:
+            result[posIndex] = num
+            posIndex += 2
+
+        for num in arr2:
+            result[negIndex] = num
+            negIndex += 2
+
+        return result
+
+s = Solution()
+print(s.string([3, 1, -2, -5, 2, -4]))
+  Remove Outermost Parentheses
+
+
+Problem Statement: A valid parentheses string is defined by the following rules:
+
+It is the empty string "".
+If A is a valid parentheses string, then so is "(" + A + ")".
+If A and B are valid parentheses strings, then A + B is also valid.
+
+A primitive valid parentheses string is a non-empty valid string that cannot be split into two or more non-empty valid parentheses strings.
+
+Given a valid parentheses string s, your task is to remove the outermost parentheses from every primitive component of s and return the resulting string.
+
