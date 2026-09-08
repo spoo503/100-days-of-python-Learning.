@@ -27,6 +27,25 @@ class Solution:
 
 s = Solution()
 print(s.string([3, 1, -2, -5, 2, -4]))
+
+med level code:
+class Solution:
+  def rearrange_elements(self,arr):
+    pos=0
+    neg=1
+    ans=[0]*len(arr)
+    for i in range(0,len(arr)):
+      if arr[i]<0:
+        ans[neg]=arr[i]
+        neg+=2
+      else:
+        ans[pos]=arr[i]
+        pos+=2
+    return ans
+s=Solution()
+print(s.rearrange_elements([-3,1,-2,-4,2,4]))
+    
+        
   Remove Outermost Parentheses
 
 
