@@ -1,0 +1,35 @@
+NEXT PERMUTATION CONCEPT:
+class Solution: 
+    def next_permutation(self, arr):
+        ind = -1
+        n = len(arr)
+
+        # Find the breakpoint
+        for i in range(n - 2, -1, -1):
+            if arr[i] < arr[i + 1]:
+                ind = i
+                break
+
+        # If no breakpoint
+        if ind == -1:
+            arr.reverse()
+            return arr
+
+        # Find the element greater than arr[ind]
+        for i in range(n - 1, ind, -1):
+            if arr[i] > arr[ind]:
+                arr[i], arr[ind] = arr[ind], arr[i]
+                break
+
+        # Reverse the elements after ind
+        arr[ind + 1:] = reversed(arr[ind + 1:])
+
+        return arr
+
+
+s = Solution()
+print(s.next_permutation([2, 3, 5, 4, 1, 0, 0]))
+
+
+
+
