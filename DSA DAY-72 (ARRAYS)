@@ -30,6 +30,40 @@ class Solution:
 s = Solution()
 print(s.next_permutation([2, 3, 5, 4, 1, 0, 0]))
 
+leaders in the array:
+class Solution:
+  def leaders(self,arr):
+    s=[]
+    leader=True
+    for i in range(0,len(arr)):
+      leader=True
+      for j in range(i+1,len(arr)):
+          if arr[i]<arr[j]:
+            leader=False
+      if leader:
+            s.append(arr[i])
+    return s
+s=Solution()
+print(s.leaders([10,22,12,3,0,6]))
+
+OPTIMIZER:
+class Solution:
+  def leaders_opti(self,arr):
+    Max=arr[-1]
+    s=[]
+    n=len(arr)
+    s.append(arr[-1])  # as we know last element is leader
+    for i in range(n-2,-1,-1): #n-2 bcz back iteration
+      if arr[i]>Max:
+        Max=arr[i]
+        s.append(arr[i])
+    return s
+s=Solution()
+print(s.leaders_opti([10,22,12,3,0,6]))
+#trace the code.
+#
+
+
 
 
 
