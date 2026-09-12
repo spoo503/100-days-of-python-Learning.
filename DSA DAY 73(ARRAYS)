@@ -1,0 +1,22 @@
+LONGEST CINSECUTIVE
+class Solution:
+    def longest_consec(self, arr):
+        s = set(arr)
+        longest = 0
+
+        for num in s:
+            if num - 1 not in s:
+                count = 1
+                x = num
+
+                while x + 1 in s:
+                    x += 1
+                    count += 1
+
+                longest = max(longest, count)
+
+        return longest
+
+
+s = Solution()
+print(s.longest_consec([102, 4, 100, 1, 3, 2, 1, 1]))
